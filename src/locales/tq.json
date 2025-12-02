@@ -1,0 +1,70 @@
+{
+  "header": {
+    "topBar": {
+      "hotline": "热线: (+84) 969 075 829",
+      "email": "邮箱: daviddungsavills@gmail.com",
+      "tiktok": "抖音",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn"
+    },
+    "logo": {
+      "line1": "DAVID DŨNG",
+      "line2": "SAVILLS"
+    },
+    "nav": {
+      "home": "首页",
+      "about": "关于David Dũng",
+      "contactConsult": "咨询联系",
+      "collaborator": "合伙人"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "David Dũng Savills",
+      "paragraph1": "专注胡志明市中心房产，与 Masterise Homes、Vinhomes、Novaland、Keppel Land 等一线开发商合作。",
+      "paragraph2": "自 2017 年以来，David Dũng 一直为客户提供高端公寓、商铺、复式住宅及顶层公寓的买卖与租赁服务，以专业与诚信赢得客户信任。",
+      "slides": [
+        {
+          "title": "您想购买或出售房产吗？",
+          "subtitle": "您找对经纪人了！",
+          "buttonText": "联系我们",
+          "image": ""
+        },
+        {
+          "title": "专注胡志明市中心房产",
+          "subtitle": "多样化产品：高端公寓、商铺、复式住宅及顶层公寓",
+          "buttonText": "查看房产目录",
+          "image": ""
+        },
+        {
+          "title": "全程陪伴客户",
+          "subtitle": "房产咨询、管理与运营、财务咨询、手续支持",
+          "buttonText": "了解更多",
+          "image": ""
+        }
+      ]
+    },
+    "about": {
+      "title": "关于 David Dũng Savills",
+      "paragraph1": "我是 David Dũng，拥有 7 年以上房地产顾问经验，专注于高端公寓、商铺以及胡志明市中心优质物业。",
+      "paragraph2": "我熟悉各大开发商的销售政策及相关法律流程，能为客户提供合理的资金安排与投资方案。",
+      "paragraph3": "多年来我与多家大型开发商保持合作，一直坚持专业、透明并全程陪伴客户完成每一笔交易。"
+    },
+    "contactConsult": {
+      "title": "咨询联系",
+      "intro": "欢迎联系 David Dũng，为您推荐最适合预算与需求的优质房产。",
+      "hotlineLabel": "热线/Zalo:",
+      "emailLabel": "邮箱:"
+    },
+    "collaborator": {
+      "title": "合伙人合作",
+      "intro": "如果您想与 David Dũng 合作房地产项目，请留下联系方式，David Dũng 会与您详细沟通。",
+      "formLabel": "合作形式:",
+      "formValue": "推荐客户的合伙人，佣金分成公开透明。",
+      "directLabel": "直接联系:",
+      "directValue": "Zalo / 电话 0969 075 829"
+    }
+  }
+}
+
+

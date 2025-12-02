@@ -1,0 +1,70 @@
+{
+  "header": {
+    "topBar": {
+      "hotline": "Hotline: (+84) 969 075 829",
+      "email": "Email: daviddungsavills@gmail.com",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn"
+    },
+    "logo": {
+      "line1": "DAVID DŨNG",
+      "line2": "SAVILLS"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "contactConsult": "Contact for advice",
+      "collaborator": "Collaborator"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "David Dũng Savills",
+      "paragraph1": "Specializing in central Ho Chi Minh City real estate, working with top developers such as Masterise Homes, Vinhomes, Novaland, Keppel Land...",
+      "paragraph2": "Since 2017, David Dũng has supported many clients in buying, selling, leasing and investing in high–end apartments, shophouses, duplexes and penthouses, always prioritizing reputation and customer satisfaction.",
+      "slides": [
+        {
+          "title": "ARE YOU LOOKING TO BUY OR SELL REAL ESTATE?",
+          "subtitle": "You've found the right broker!",
+          "buttonText": "CONTACT US",
+          "image": ""
+        },
+        {
+          "title": "Specializing in Central Ho Chi Minh City Real Estate",
+          "subtitle": "Diverse products: Luxury Apartments, Shophouses, Duplexes and Penthouses in HCMC",
+          "buttonText": "VIEW PROPERTIES",
+          "image": ""
+        },
+        {
+          "title": "Accompanying You Throughout",
+          "subtitle": "Real Estate Consulting, Management & Operations, Financial Consulting, Procedure Support",
+          "buttonText": "LEARN MORE",
+          "image": ""
+        }
+      ]
+    },
+    "about": {
+      "title": "About David Dũng Savills",
+      "paragraph1": "I am David Dũng, a real estate consultant with over 7 years of experience, focusing on premium apartments, shophouses and central Ho Chi Minh City properties.",
+      "paragraph2": "My strengths are deep understanding of legal procedures, sales policies of developers and helping clients optimize finance and cash flow when investing.",
+      "paragraph3": "I have been cooperating with many major developers in the market, always working professionally, transparently and accompanying clients throughout the transaction process."
+    },
+    "contactConsult": {
+      "title": "Contact for consultation",
+      "intro": "Let David Dũng help you find the property that best suits your needs and budget.",
+      "hotlineLabel": "Hotline/Zalo:",
+      "emailLabel": "Email:"
+    },
+    "collaborator": {
+      "title": "Become a collaborator",
+      "intro": "If you want to cooperate with David Dũng in real estate, leave your information and David Dũng will contact you for details.",
+      "formLabel": "Role:",
+      "formValue": "Collaborator introducing clients, with transparent commission sharing.",
+      "directLabel": "Contact directly:",
+      "directValue": "Zalo / Call 0969 075 829"
+    }
+  }
+}
+
+

@@ -1,0 +1,70 @@
+{
+  "header": {
+    "topBar": {
+      "hotline": "Hotline: (+84) 969 075 829",
+      "email": "Email: daviddungsavills@gmail.com",
+      "tiktok": "TikTok",
+      "youtube": "YouTube",
+      "linkedin": "LinkedIn"
+    },
+    "logo": {
+      "line1": "DAVID DŨNG",
+      "line2": "SAVILLS"
+    },
+    "nav": {
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "contactConsult": "Liên hệ tư vấn",
+      "collaborator": "Cộng tác viên"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "David Dũng Savills",
+      "paragraph1": "Chuyên bất động sản trung tâm TP. Hồ Chí Minh, hợp tác với các chủ đầu tư hàng đầu như Masterise Homes, Vinhomes, Novaland, Keppel Land...",
+      "paragraph2": "Từ năm 2017 đến nay, David Dũng đã đồng hành cùng nhiều khách hàng mua bán, cho thuê và đầu tư các dự án căn hộ hạng sang, shophouse, duplex và penthouse, luôn đặt uy tín và sự hài lòng của khách hàng lên hàng đầu.",
+      "slides": [
+        {
+          "title": "BẠN ĐANG MUỐN MUA HOẶC BÁN BẤT ĐỘNG SẢN?",
+          "subtitle": "Bạn tìm đúng người môi giới rồi đấy!",
+          "buttonText": "LIÊN HỆ",
+          "image": ""
+        },
+        {
+          "title": "Chuyên bất động sản trung tâm TP Hồ Chí Minh",
+          "subtitle": "Đa dạng sản phẩm Căn hộ hạng sang, Shophouse, Duplex và Penthouse tại TP.HCM",
+          "buttonText": "XEM DANH MỤC BĐS",
+          "image": ""
+        },
+        {
+          "title": "Đồng hành xuyên suốt cùng Quý khách",
+          "subtitle": "Tư vấn Bất Động Sản, Quản Lý & Vận Hành, Tư Vấn Tài Chính, Hỗ Trợ Thủ Tục",
+          "buttonText": "TÌM HIỂU THÊM",
+          "image": ""
+        }
+      ]
+    },
+    "about": {
+      "title": "Giới thiệu về David Dũng Savills",
+      "paragraph1": "Mình là David Dũng, chuyên viên tư vấn bất động sản với hơn 7 năm kinh nghiệm, tập trung vào phân khúc căn hộ cao cấp, shophouse và bất động sản trung tâm TP. Hồ Chí Minh.",
+      "paragraph2": "Thế mạnh của mình là am hiểu sâu về pháp lý, chính sách bán hàng của các chủ đầu tư, cũng như hỗ trợ khách hàng tối ưu tài chính và dòng tiền khi đầu tư.",
+      "paragraph3": "Mình đã và đang hợp tác với nhiều chủ đầu tư lớn trên thị trường, luôn giữ tinh thần làm việc chuyên nghiệp, minh bạch và đồng hành cùng khách hàng trong suốt quá trình giao dịch."
+    },
+    "contactConsult": {
+      "title": "Liên hệ để được tư vấn",
+      "intro": "Hãy để David Dũng hỗ trợ bạn tìm được bất động sản phù hợp nhất với nhu cầu và ngân sách.",
+      "hotlineLabel": "Hotline/Zalo:",
+      "emailLabel": "Email:"
+    },
+    "collaborator": {
+      "title": "Liên hệ để làm cộng tác viên",
+      "intro": "Nếu bạn muốn hợp tác cùng David Dũng trong lĩnh vực bất động sản, hãy để lại thông tin, David Dũng sẽ liên hệ trao đổi chi tiết.",
+      "formLabel": "Hình thức:",
+      "formValue": "Cộng tác viên giới thiệu khách hàng, chia sẻ hoa hồng minh bạch.",
+      "directLabel": "Liên hệ trực tiếp:",
+      "directValue": "Zalo / Call 0969 075 829"
+    }
+  }
+}
+
+
