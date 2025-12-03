@@ -29,6 +29,28 @@
       "title": "David Dũng Savills",
       "paragraph1": "Specializing in central Ho Chi Minh City real estate, working with top developers such as Masterise Homes, Vinhomes, Novaland, Keppel Land...",
       "paragraph2": "Since 2017, David Dũng has supported many clients in buying, selling, leasing and investing in high–end apartments, shophouses, duplexes and penthouses, always prioritizing reputation and customer satisfaction.",
+      "services": {
+        "title": "Services provided by David Dũng Savills",
+        "subtitle": "Accompanying customers throughout",
+        "items": [
+          {
+            "title": "Real Estate Consulting",
+            "description": "Diverse products, standard quality projects, complete legal consulting"
+          },
+          {
+            "title": "Management & Operation",
+            "description": "Asset management and rental exploitation to create passive income streams"
+          },
+          {
+            "title": "Financial Consulting",
+            "description": "Financial solutions to help customers buy a home suitable for their budget"
+          },
+          {
+            "title": "Procedure Support",
+            "description": "Support for customers with clear legal procedures for real estate"
+          }
+        ]
+      },
       "slides": [
         {
           "title": "ARE YOU LOOKING TO BUY OR SELL REAL ESTATE?",

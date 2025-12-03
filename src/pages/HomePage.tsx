@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "../i18n";
 import HeroSlider from "../components/HeroSlider";
+import ServicesSection from "../components/ServicesSection";
 
 const HomePage: React.FC = () => {
   const { t } = useTranslation();
@@ -22,6 +23,9 @@ const HomePage: React.FC = () => {
           {t.pages.home.paragraph2}
         </p>
       </section>
+
+      {/* Services Section */}
+      <ServicesSection />
     </main>
   );
 };
