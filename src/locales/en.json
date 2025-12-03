@@ -1,11 +1,17 @@
 {
   "header": {
     "topBar": {
-      "hotline": "Hotline: (+84) 969 075 829",
-      "email": "Email: daviddungsavills@gmail.com",
-      "tiktok": "TikTok",
-      "youtube": "YouTube",
-      "linkedin": "LinkedIn"
+      "hotline": "Hotline: 0936 818 105",
+      "email": "Email: ducdungdhd@gmail.com",
+      "address": "Lotte Center Hanoi, 21st floor, 54 Liễu Giai St, Ba Đình, Hanoi"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "zalo": "Zalo",
+      "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
+      "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+      "zaloPhone": "0936818105"
     },
     "logo": {
       "line1": "DAVID DŨNG",
@@ -14,8 +20,8 @@
     "nav": {
       "home": "Home",
       "about": "About",
-      "contactConsult": "Contact for advice",
-      "collaborator": "Collaborator"
+      "contactApartment": "Contact for Apartment",
+      "collaborator": "Become Collaborator"
     }
   },
   "pages": {
@@ -50,20 +56,92 @@
       "paragraph2": "My strengths are deep understanding of legal procedures, sales policies of developers and helping clients optimize finance and cash flow when investing.",
       "paragraph3": "I have been cooperating with many major developers in the market, always working professionally, transparently and accompanying clients throughout the transaction process."
     },
-    "contactConsult": {
-      "title": "Contact for consultation",
-      "intro": "Let David Dũng help you find the property that best suits your needs and budget.",
-      "hotlineLabel": "Hotline/Zalo:",
-      "emailLabel": "Email:"
+    "contactApartment": {
+      "title": "Contact for Apartment",
+      "intro": "Fill in the information if you want apartment consultation",
+      "form": {
+        "name": "Full Name",
+        "phone": "Phone Number",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Submit"
+      },
+      "contact": {
+        "title": "Contact Information",
+        "phone": "Phone:",
+        "email": "Email:",
+        "address": "Office Address:",
+        "phoneValue": "0936 818 105",
+        "emailValue": "ducdungdhd@gmail.com",
+        "addressValue": "Lotte Center Hanoi, 21st floor, 54 Liễu Giai St, Ba Đình, Hanoi"
+      },
+      "social": {
+        "title": "Social Media",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "zalo": "Zalo: 0936 818 105",
+        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
+        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+        "zaloPhone": "0936818105"
+      },
+      "successMessage": "Thank you for contacting us! We will respond as soon as possible."
     },
     "collaborator": {
-      "title": "Become a collaborator",
-      "intro": "If you want to cooperate with David Dũng in real estate, leave your information and David Dũng will contact you for details.",
-      "formLabel": "Role:",
-      "formValue": "Collaborator introducing clients, with transparent commission sharing.",
-      "directLabel": "Contact directly:",
-      "directValue": "Zalo / Call 0969 075 829"
+      "title": "Become Collaborator",
+      "intro": "Fill in the information if you want to become a collaborator",
+      "form": {
+        "name": "Full Name",
+        "phone": "Phone Number",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Submit"
+      },
+      "contact": {
+        "title": "Contact Information",
+        "phone": "Phone:",
+        "email": "Email:",
+        "address": "Office Address:",
+        "phoneValue": "0936 818 105",
+        "emailValue": "ducdungdhd@gmail.com",
+        "addressValue": "Lotte Center Hanoi, 21st floor, 54 Liễu Giai St, Ba Đình, Hanoi"
+      },
+      "social": {
+        "title": "Social Media",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "zalo": "Zalo: 0936 818 105",
+        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
+        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+        "zaloPhone": "0936818105"
+      },
+      "successMessage": "Thank you for your interest! We will contact you as soon as possible."
     }
+  },
+  "footer": {
+    "description": "Real estate consultant with over 7 years of experience, focusing on premium apartments, shophouses and central Ho Chi Minh City properties.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "contactApartment": "Contact for Apartment",
+      "collaborator": "Become Collaborator"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "Phone:",
+      "email": "Email:",
+      "address": "Address:",
+      "phoneValue": "0936 818 105",
+      "emailValue": "ducdungdhd@gmail.com",
+      "addressValue": "Lotte Center Hanoi, 21st floor, 54 Liễu Giai St, Ba Đình, Hanoi"
+    },
+    "social": {
+      "title": "Social Media",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "zalo": "Zalo"
+    },
+    "copyright": "© 2025 David Dũng Savills. All rights reserved."
   }
 }
 

@@ -1,11 +1,17 @@
 {
   "header": {
     "topBar": {
-      "hotline": "Hotline: (+84) 969 075 829",
-      "email": "Email: daviddungsavills@gmail.com",
-      "tiktok": "TikTok",
-      "youtube": "YouTube",
-      "linkedin": "LinkedIn"
+      "hotline": "Hotline: 0936 818 105",
+      "email": "Email: ducdungdhd@gmail.com",
+      "address": "Lotte Center Hà Nội, 21st floor, 54 P. Liễu Giai, Ba Đình, Hà Nội"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "zalo": "Zalo",
+      "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
+      "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+      "zaloPhone": "0936818105"
     },
     "logo": {
       "line1": "DAVID DŨNG",
@@ -14,8 +20,8 @@
     "nav": {
       "home": "Trang chủ",
       "about": "Giới thiệu",
-      "contactConsult": "Liên hệ tư vấn",
-      "collaborator": "Cộng tác viên"
+      "contactApartment": "Liên hệ tìm căn hộ",
+      "collaborator": "Liên hệ làm cộng tác viên"
     }
   },
   "pages": {
@@ -50,20 +56,92 @@
       "paragraph2": "Thế mạnh của mình là am hiểu sâu về pháp lý, chính sách bán hàng của các chủ đầu tư, cũng như hỗ trợ khách hàng tối ưu tài chính và dòng tiền khi đầu tư.",
       "paragraph3": "Mình đã và đang hợp tác với nhiều chủ đầu tư lớn trên thị trường, luôn giữ tinh thần làm việc chuyên nghiệp, minh bạch và đồng hành cùng khách hàng trong suốt quá trình giao dịch."
     },
-    "contactConsult": {
-      "title": "Liên hệ để được tư vấn",
-      "intro": "Hãy để David Dũng hỗ trợ bạn tìm được bất động sản phù hợp nhất với nhu cầu và ngân sách.",
-      "hotlineLabel": "Hotline/Zalo:",
-      "emailLabel": "Email:"
+    "contactApartment": {
+      "title": "Liên hệ tìm căn hộ",
+      "intro": "Điền thông tin nếu muốn được tư vấn căn hộ",
+      "form": {
+        "name": "Họ và tên",
+        "phone": "Số điện thoại",
+        "email": "Email",
+        "message": "Nội dung",
+        "submit": "Gửi thông tin"
+      },
+      "contact": {
+        "title": "Thông tin liên hệ",
+        "phone": "SĐT:",
+        "email": "Email:",
+        "address": "Địa chỉ văn phòng:",
+        "phoneValue": "0936 818 105",
+        "emailValue": "ducdungdhd@gmail.com",
+        "addressValue": "Lotte Center Hà Nội, 21st floor, 54 P. Liễu Giai, Ba Đình, Hà Nội"
+      },
+      "social": {
+        "title": "Mạng xã hội",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "zalo": "Zalo: 0936 818 105",
+        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
+        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+        "zaloPhone": "0936818105"
+      },
+      "successMessage": "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể."
     },
     "collaborator": {
-      "title": "Liên hệ để làm cộng tác viên",
-      "intro": "Nếu bạn muốn hợp tác cùng David Dũng trong lĩnh vực bất động sản, hãy để lại thông tin, David Dũng sẽ liên hệ trao đổi chi tiết.",
-      "formLabel": "Hình thức:",
-      "formValue": "Cộng tác viên giới thiệu khách hàng, chia sẻ hoa hồng minh bạch.",
-      "directLabel": "Liên hệ trực tiếp:",
-      "directValue": "Zalo / Call 0969 075 829"
+      "title": "Liên hệ làm cộng tác viên",
+      "intro": "Điền thông tin nếu muốn làm cộng tác viên",
+      "form": {
+        "name": "Họ và tên",
+        "phone": "Số điện thoại",
+        "email": "Email",
+        "message": "Nội dung",
+        "submit": "Gửi thông tin"
+      },
+      "contact": {
+        "title": "Thông tin liên hệ",
+        "phone": "SĐT:",
+        "email": "Email:",
+        "address": "Địa chỉ văn phòng:",
+        "phoneValue": "0936 818 105",
+        "emailValue": "ducdungdhd@gmail.com",
+        "addressValue": "Lotte Center Hà Nội, 21st floor, 54 P. Liễu Giai, Ba Đình, Hà Nội"
+      },
+      "social": {
+        "title": "Mạng xã hội",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "zalo": "Zalo: 0936 818 105",
+        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
+        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+        "zaloPhone": "0936818105"
+      },
+      "successMessage": "Cảm ơn bạn đã quan tâm! Chúng tôi sẽ liên hệ với bạn sớm nhất có thể."
     }
+  },
+  "footer": {
+    "description": "Chuyên viên tư vấn bất động sản với hơn 7 năm kinh nghiệm, tập trung vào phân khúc căn hộ cao cấp, shophouse và bất động sản trung tâm TP. Hồ Chí Minh.",
+    "quickLinks": {
+      "title": "Liên kết nhanh",
+      "home": "Trang chủ",
+      "about": "Giới thiệu",
+      "contactApartment": "Liên hệ tìm căn hộ",
+      "collaborator": "Liên hệ làm cộng tác viên"
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "phone": "SĐT:",
+      "email": "Email:",
+      "address": "Địa chỉ:",
+      "phoneValue": "0936 818 105",
+      "emailValue": "ducdungdhd@gmail.com",
+      "addressValue": "Lotte Center Hà Nội, 21st floor, 54 P. Liễu Giai, Ba Đình, Hà Nội"
+    },
+    "social": {
+      "title": "Mạng xã hội",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "zalo": "Zalo"
+    },
+    "copyright": "© 2025 David Dũng Savills. Tất cả quyền được bảo lưu."
   }
 }
 

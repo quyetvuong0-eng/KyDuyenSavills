@@ -1,11 +1,17 @@
 {
   "header": {
     "topBar": {
-      "hotline": "热线: (+84) 969 075 829",
-      "email": "邮箱: daviddungsavills@gmail.com",
-      "tiktok": "抖音",
-      "youtube": "YouTube",
-      "linkedin": "LinkedIn"
+      "hotline": "热线: 0936 818 105",
+      "email": "邮箱: ducdungdhd@gmail.com",
+      "address": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "zalo": "Zalo",
+      "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
+      "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+      "zaloPhone": "0936818105"
     },
     "logo": {
       "line1": "DAVID DŨNG",
@@ -14,8 +20,8 @@
     "nav": {
       "home": "首页",
       "about": "关于David Dũng",
-      "contactConsult": "咨询联系",
-      "collaborator": "合伙人"
+      "contactApartment": "联系找公寓",
+      "collaborator": "联系做合伙人"
     }
   },
   "pages": {
@@ -50,20 +56,92 @@
       "paragraph2": "我熟悉各大开发商的销售政策及相关法律流程，能为客户提供合理的资金安排与投资方案。",
       "paragraph3": "多年来我与多家大型开发商保持合作，一直坚持专业、透明并全程陪伴客户完成每一笔交易。"
     },
-    "contactConsult": {
-      "title": "咨询联系",
-      "intro": "欢迎联系 David Dũng，为您推荐最适合预算与需求的优质房产。",
-      "hotlineLabel": "热线/Zalo:",
-      "emailLabel": "邮箱:"
+    "contactApartment": {
+      "title": "联系找公寓",
+      "intro": "如需公寓咨询，请填写信息",
+      "form": {
+        "name": "姓名",
+        "phone": "电话号码",
+        "email": "邮箱",
+        "message": "内容",
+        "submit": "提交"
+      },
+      "contact": {
+        "title": "联系信息",
+        "phone": "电话:",
+        "email": "邮箱:",
+        "address": "办公室地址:",
+        "phoneValue": "0936 818 105",
+        "emailValue": "ducdungdhd@gmail.com",
+        "addressValue": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
+      },
+      "social": {
+        "title": "社交媒体",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "zalo": "Zalo: 0936 818 105",
+        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
+        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+        "zaloPhone": "0936818105"
+      },
+      "successMessage": "感谢您的联系！我们会尽快回复。"
     },
     "collaborator": {
-      "title": "合伙人合作",
-      "intro": "如果您想与 David Dũng 合作房地产项目，请留下联系方式，David Dũng 会与您详细沟通。",
-      "formLabel": "合作形式:",
-      "formValue": "推荐客户的合伙人，佣金分成公开透明。",
-      "directLabel": "直接联系:",
-      "directValue": "Zalo / 电话 0969 075 829"
+      "title": "联系做合伙人",
+      "intro": "如需成为合伙人，请填写信息",
+      "form": {
+        "name": "姓名",
+        "phone": "电话号码",
+        "email": "邮箱",
+        "message": "内容",
+        "submit": "提交"
+      },
+      "contact": {
+        "title": "联系信息",
+        "phone": "电话:",
+        "email": "邮箱:",
+        "address": "办公室地址:",
+        "phoneValue": "0936 818 105",
+        "emailValue": "ducdungdhd@gmail.com",
+        "addressValue": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
+      },
+      "social": {
+        "title": "社交媒体",
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "zalo": "Zalo: 0936 818 105",
+        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
+        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+        "zaloPhone": "0936818105"
+      },
+      "successMessage": "感谢您的关注！我们会尽快与您联系。"
     }
+  },
+  "footer": {
+    "description": "拥有 7 年以上房地产顾问经验，专注于高端公寓、商铺以及胡志明市中心优质物业。",
+    "quickLinks": {
+      "title": "快速链接",
+      "home": "首页",
+      "about": "关于David Dũng",
+      "contactApartment": "联系找公寓",
+      "collaborator": "联系做合伙人"
+    },
+    "contact": {
+      "title": "联系",
+      "phone": "电话:",
+      "email": "邮箱:",
+      "address": "地址:",
+      "phoneValue": "0936 818 105",
+      "emailValue": "ducdungdhd@gmail.com",
+      "addressValue": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
+    },
+    "social": {
+      "title": "社交媒体",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "zalo": "Zalo"
+    },
+    "copyright": "© 2025 David Dũng Savills. 保留所有权利。"
   }
 }
 
