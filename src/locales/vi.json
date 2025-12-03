@@ -29,6 +29,39 @@
       "title": "David Dũng Savills",
       "paragraph1": "Chuyên bất động sản trung tâm TP. Hồ Chí Minh, hợp tác với các chủ đầu tư hàng đầu như Masterise Homes, Vinhomes, Novaland, Keppel Land...",
       "paragraph2": "Từ năm 2017 đến nay, David Dũng đã đồng hành cùng nhiều khách hàng mua bán, cho thuê và đầu tư các dự án căn hộ hạng sang, shophouse, duplex và penthouse, luôn đặt uy tín và sự hài lòng của khách hàng lên hàng đầu.",
+      "partners": {
+        "title": "Sản phẩm từ các Chủ Đầu Tư hàng đầu",
+        "developers": [
+          {
+            "name": "MASTERISE HOMES",
+            "logo": ""
+          },
+          {
+            "name": "GAMUDA LAND",
+            "logo": ""
+          },
+          {
+            "name": "CapitaLand",
+            "logo": ""
+          },
+          {
+            "name": "Hongkong Land",
+            "logo": ""
+          },
+          {
+            "name": "KHANG ĐIỀN",
+            "logo": ""
+          },
+          {
+            "name": "VINHOMES",
+            "logo": ""
+          },
+          {
+            "name": "GS E&C",
+            "logo": ""
+          }
+        ]
+      },
       "services": {
         "title": "Dịch vụ David Dũng Savills cung cấp",
         "subtitle": "Đồng hành xuyên suốt cùng Quý khách",

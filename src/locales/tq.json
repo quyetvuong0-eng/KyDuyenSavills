@@ -29,6 +29,39 @@
       "title": "David Dũng Savills",
       "paragraph1": "专注胡志明市中心房产，与 Masterise Homes、Vinhomes、Novaland、Keppel Land 等一线开发商合作。",
       "paragraph2": "自 2017 年以来，David Dũng 一直为客户提供高端公寓、商铺、复式住宅及顶层公寓的买卖与租赁服务，以专业与诚信赢得客户信任。",
+      "partners": {
+        "title": "来自领先开发商的产品",
+        "developers": [
+          {
+            "name": "MASTERISE HOMES",
+            "logo": ""
+          },
+          {
+            "name": "GAMUDA LAND",
+            "logo": ""
+          },
+          {
+            "name": "CapitaLand",
+            "logo": ""
+          },
+          {
+            "name": "Hongkong Land",
+            "logo": ""
+          },
+          {
+            "name": "KHANG ĐIỀN",
+            "logo": ""
+          },
+          {
+            "name": "VINHOMES",
+            "logo": ""
+          },
+          {
+            "name": "GS E&C",
+            "logo": ""
+          }
+        ]
+      },
       "services": {
         "title": "David Dũng Savills 提供的服务",
         "subtitle": "全程陪伴客户",
