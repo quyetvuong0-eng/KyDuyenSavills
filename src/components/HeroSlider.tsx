@@ -1,35 +1,43 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "../i18n";
+import ContactModal from "./common/ContactModal";
 
 const HeroSlider: React.FC = () => {
   const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const slides = t.pages.home.slides || [];
 
+  // Map slides with images from /images/slides directory
+  const slidesWithImages = slides.map((slide: any, index: number) => ({
+    ...slide,
+    image: slide.image || `/images/slides/slide${index + 1}.jpg`,
+  }));
+
   useEffect(() => {
-    if (slides.length === 0) return;
+    if (slidesWithImages.length === 0) return;
 
     const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
+      setCurrentSlide((prev) => (prev + 1) % slidesWithImages.length);
     }, 2000);
 
     return () => clearInterval(interval);
-  }, [slides.length]);
+  }, [slidesWithImages.length]);
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
   };
 
   const goToPrevious = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+    setCurrentSlide((prev) => (prev - 1 + slidesWithImages.length) % slidesWithImages.length);
   };
 
   const goToNext = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
+    setCurrentSlide((prev) => (prev + 1) % slidesWithImages.length);
   };
 
-  if (slides.length === 0) {
+  if (slidesWithImages.length === 0) {
     return null;
   }
 
@@ -37,50 +45,77 @@ const HeroSlider: React.FC = () => {
     <div className="group relative w-full h-screen min-h-[700px] overflow-hidden mt-16">
       {/* Slides */}
       <div className="relative w-full h-full">
-        {slides.map((slide: any, index: number) => (
+        {slidesWithImages.map((slide: any, index: number) => (
           <div
             key={index}
             className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
-            {/* Background Image */}
-            <div
-              className="w-full h-full bg-cover bg-center bg-no-repeat"
-              style={{
-                backgroundImage: slide.image
-                  ? `url(${slide.image})`
-                  : "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)",
-              }}
-            >
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50" />
+            {/* Background Image - Full cover to fill the entire container */}
+            <div className="absolute inset-0 w-full h-full bg-black">
+              <img
+                src={slide.image || undefined}
+                alt={slide.title || "Slide"}
+                className="w-full h-full object-cover object-center"
+                style={{
+                  backgroundColor: slide.image ? "transparent" : "#1a1a1a",
+                }}
+                onError={(e) => {
+                  // Fallback to gradient if image fails to load
+                  const target = e.target as HTMLImageElement;
+                  target.style.display = "none";
+                  const parent = target.parentElement;
+                  if (parent) {
+                    parent.style.background = "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%)";
+                  }
+                }}
+              />
+            </div>
+            
+            {/* Overlay - Darker overlay to make text more readable */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/50 z-10" />
 
-              {/* Content */}
-              <div className="relative h-full flex items-center justify-center px-6 lg:px-16">
-                <div className="text-center text-white max-w-4xl">
-                  <h1 className="text-4xl md:text-5xl lg:text-7xl font-light mb-4 md:mb-6 tracking-tight">
+            {/* Content - Positioned at bottom to not cover image */}
+            <div className="relative h-full flex items-end justify-center px-6 lg:px-16 pb-16 md:pb-24 z-20">
+                <div className="text-center max-w-3xl lg:max-w-[70%] w-full">
+                   {/* Slogan - Keep mobile size, larger on desktop */}
+                  <div className="mb-2 md:mb-3 lg:mb-4">
+                    <p className="text-sm md:text-base lg:text-lg font-medium text-white mb-1 md:mb-1.5 lg:mb-2 drop-shadow-2xl">
+                      {t.pages.home.hero.slogan}
+                    </p>
+                    <p className="text-xs md:text-sm lg:text-base font-light text-white/90 drop-shadow-2xl">
+                      {t.pages.home.hero.mainService}
+                    </p>
+                  </div>
+                  
+                  {/* Title - Keep mobile size, larger on desktop */}
+                  <h1 className="text-2xl md:text-3xl lg:text-4xl font-light mb-2 md:mb-3 lg:mb-4 tracking-tight text-white drop-shadow-2xl">
                     {slide.title}
                   </h1>
+                  {/* Subtitle - Keep mobile size, larger on desktop */}
                   {slide.subtitle && (
-                    <p className="text-lg md:text-xl lg:text-2xl mb-8 md:mb-10 font-light text-white/90">
+                    <p className="text-sm md:text-base lg:text-lg mb-3 md:mb-4 lg:mb-5 font-light text-white/95 drop-shadow-2xl">
                       {slide.subtitle}
                     </p>
                   )}
+                  {/* Button - Keep mobile size, larger on desktop */}
                   {slide.buttonText && (
-                    <button className="bg-white text-black hover:bg-white/90 px-8 py-3 md:px-10 md:py-4 text-sm md:text-base font-medium tracking-wide transition-all duration-300 hover:scale-105">
+                    <button 
+                      onClick={() => setIsModalOpen(true)}
+                      className="bg-primary text-white hover:bg-primary/90 px-5 py-1.5 md:px-6 md:py-2 lg:px-8 lg:py-3 text-xs md:text-sm lg:text-base font-medium tracking-wide transition-all duration-300 hover:scale-105 shadow-lg rounded-lg"
+                    >
                       {slide.buttonText}
                     </button>
                   )}
                 </div>
-              </div>
             </div>
           </div>
         ))}
       </div>
 
       {/* Navigation Arrows - Hidden by default, show on hover */}
-      {slides.length > 1 && (
+      {slidesWithImages.length > 1 && (
         <>
           <button
             onClick={goToPrevious}
@@ -124,9 +159,9 @@ const HeroSlider: React.FC = () => {
       )}
 
       {/* Dots Indicator */}
-      {slides.length > 1 && (
+      {slidesWithImages.length > 1 && (
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 z-10">
-          {slides.map((_: any, index: number) => (
+          {slidesWithImages.map((_: any, index: number) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
@@ -140,6 +175,12 @@ const HeroSlider: React.FC = () => {
           ))}
         </div>
       )}
+
+      {/* Contact Modal */}
+      <ContactModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </div>
   );
 };

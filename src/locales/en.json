@@ -8,14 +8,15 @@
     "social": {
       "linkedin": "LinkedIn",
       "facebook": "Facebook",
+      "hotline": "Hotline",
       "zalo": "Zalo",
       "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
       "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
       "zaloPhone": "0936818105"
     },
     "logo": {
-      "line1": "DAVID DŨNG",
-      "line2": "SAVILLS"
+      "line1": "DAVID",
+      "line2": "NGUYEN"
     },
     "nav": {
       "home": "Home",
@@ -26,44 +27,48 @@
   },
   "pages": {
     "home": {
-      "title": "David Dũng Savills",
-      "paragraph1": "Specializing in central Ho Chi Minh City real estate, working with top developers such as Masterise Homes, Vinhomes, Novaland, Keppel Land...",
-      "paragraph2": "Since 2017, David Dũng has supported many clients in buying, selling, leasing and investing in high–end apartments, shophouses, duplexes and penthouses, always prioritizing reputation and customer satisfaction.",
+      "title": "David Nguyen",
+      "paragraph1": "Specializing in real estate consulting and brokerage nationwide, with focus on two key markets: Hanoi and Ho Chi Minh City.",
+      "paragraph2": "Since 2021, David Nguyen has accompanied many clients in the process of buying, selling, leasing and investing in diverse segments: premium apartments, shophouses, duplexes, penthouses... With close cooperation with reputable developers such as Masterise Homes, Vinhomes, Novaland, Keppel Land..., David Nguyen always places trust, transparency and customer satisfaction as top priorities.",
       "partners": {
         "title": "Products from Leading Developers",
         "developers": [
           {
             "name": "MASTERISE HOMES",
-            "logo": ""
+            "logo": "/images/partners/masterise-homes.png"
           },
           {
             "name": "GAMUDA LAND",
-            "logo": ""
+            "logo": "/images/partners/gamuda-land.png"
           },
           {
             "name": "CapitaLand",
-            "logo": ""
+            "logo": "/images/partners/capitland.png"
           },
           {
             "name": "Hongkong Land",
-            "logo": ""
+            "logo": "/images/partners/hongkong-land.png"
           },
           {
             "name": "KHANG ĐIỀN",
-            "logo": ""
+            "logo": "/images/partners/khangdien.png"
           },
           {
             "name": "VINHOMES",
-            "logo": ""
+            "logo": "/images/partners/vinhome.png"
           },
           {
             "name": "GS E&C",
-            "logo": ""
+            "logo": "/images/partners/gse&c.png"
+          },
+          {
+            "name": "MIKGroup",
+            "logo": "/images/partners/MIKGroup.jpg"
           }
         ]
       },
       "services": {
-        "title": "Services provided by David Dũng Savills",
+        "title": "Services provided by David Nguyen",
         "subtitle": "Accompanying customers throughout",
         "items": [
           {
@@ -84,30 +89,40 @@
           }
         ]
       },
+      "hero": {
+        "slogan": "Premium Apartments – Worthy Choice",
+        "mainService": "Consulting – Analysis – Full Process Support for High-End Apartment Sales"
+      },
       "slides": [
         {
           "title": "ARE YOU LOOKING TO BUY OR SELL REAL ESTATE?",
-          "subtitle": "You've found the right broker!",
-          "buttonText": "CONTACT US",
+          "subtitle": "",
+          "buttonText": "CONTACT",
           "image": ""
         },
         {
-          "title": "Specializing in Central Ho Chi Minh City Real Estate",
-          "subtitle": "Diverse products: Luxury Apartments, Shophouses, Duplexes and Penthouses in HCMC",
-          "buttonText": "VIEW PROPERTIES",
+          "title": "Premium Apartments Hanoi & Ho Chi Minh City",
+          "subtitle": "",
+          "buttonText": "FIND APARTMENT",
           "image": ""
         },
         {
-          "title": "Accompanying You Throughout",
-          "subtitle": "Real Estate Consulting, Management & Operations, Financial Consulting, Procedure Support",
-          "buttonText": "LEARN MORE",
+          "title": "Full Process Support",
+          "subtitle": "",
+          "buttonText": "CONTACT",
+          "image": ""
+        },
+        {
+          "title": "David Nguyen",
+          "subtitle": "",
+          "buttonText": "EXPLORE",
           "image": ""
         }
       ]
     },
     "about": {
-      "title": "About David Dũng Savills",
-      "paragraph1": "I am David Dũng, a real estate consultant with over 7 years of experience, focusing on premium apartments, shophouses and central Ho Chi Minh City properties.",
+      "title": "About David Nguyen",
+      "paragraph1": "I am David Nguyen, a real estate consultant with over 4 years of experience, selling nationwide specializing in Hanoi and Ho Chi Minh City, focusing on premium apartments, shophouses and central Ho Chi Minh City properties.",
       "paragraph2": "My strengths are deep understanding of legal procedures, sales policies of developers and helping clients optimize finance and cash flow when investing.",
       "paragraph3": "I have been cooperating with many major developers in the market, always working professionally, transparently and accompanying clients throughout the transaction process."
     },
@@ -118,6 +133,12 @@
         "name": "Full Name",
         "phone": "Phone Number",
         "email": "Email",
+        "purpose": "Apartment consultation purpose",
+        "purposePlaceholder": "Select purpose",
+        "purposeOptions": {
+          "living": "For living",
+          "investment": "For investment"
+        },
         "message": "Message",
         "submit": "Submit"
       },
@@ -134,7 +155,8 @@
         "title": "Social Media",
         "linkedin": "LinkedIn",
         "facebook": "Facebook",
-        "zalo": "Zalo: 0936 818 105",
+        "hotline": "Hotline",
+        "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
         "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
         "zaloPhone": "0936818105"
@@ -148,6 +170,12 @@
         "name": "Full Name",
         "phone": "Phone Number",
         "email": "Email",
+        "purpose": "",
+        "purposePlaceholder": "",
+        "purposeOptions": {
+          "living": "",
+          "investment": ""
+        },
         "message": "Message",
         "submit": "Submit"
       },
@@ -164,7 +192,8 @@
         "title": "Social Media",
         "linkedin": "LinkedIn",
         "facebook": "Facebook",
-        "zalo": "Zalo: 0936 818 105",
+        "hotline": "Hotline",
+        "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
         "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
         "zaloPhone": "0936818105"
@@ -173,7 +202,7 @@
     }
   },
   "footer": {
-    "description": "Real estate consultant with over 7 years of experience, focusing on premium apartments, shophouses and central Ho Chi Minh City properties.",
+    "description": "Real estate consultant with over 4 years of experience, selling nationwide specializing in Hanoi and Ho Chi Minh City, focusing on premium apartments, shophouses and central Ho Chi Minh City properties.",
     "quickLinks": {
       "title": "Quick Links",
       "home": "Home",
@@ -194,9 +223,10 @@
       "title": "Social Media",
       "linkedin": "LinkedIn",
       "facebook": "Facebook",
+      "hotline": "Hotline",
       "zalo": "Zalo"
     },
-    "copyright": "© 2025 David Dũng Savills. All rights reserved."
+    "copyright": "© 2025 David Nguyen. All rights reserved."
   }
 }
 

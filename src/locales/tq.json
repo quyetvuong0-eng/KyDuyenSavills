@@ -8,62 +8,67 @@
     "social": {
       "linkedin": "LinkedIn",
       "facebook": "Facebook",
+      "hotline": "热线",
       "zalo": "Zalo",
       "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
       "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
       "zaloPhone": "0936818105"
     },
     "logo": {
-      "line1": "DAVID DŨNG",
-      "line2": "SAVILLS"
+      "line1": "DAVID",
+      "line2": "NGUYEN"
     },
     "nav": {
       "home": "首页",
-      "about": "关于David Dũng",
+      "about": "关于David Nguyen",
       "contactApartment": "联系找公寓",
       "collaborator": "联系做合伙人"
     }
   },
   "pages": {
     "home": {
-      "title": "David Dũng Savills",
-      "paragraph1": "专注胡志明市中心房产，与 Masterise Homes、Vinhomes、Novaland、Keppel Land 等一线开发商合作。",
-      "paragraph2": "自 2017 年以来，David Dũng 一直为客户提供高端公寓、商铺、复式住宅及顶层公寓的买卖与租赁服务，以专业与诚信赢得客户信任。",
+      "title": "David Nguyen",
+      "paragraph1": "专业从事全国房地产咨询和中介服务，重点关注两个核心市场：河内和胡志明市。",
+      "paragraph2": "自 2021 年以来，David Nguyen 一直陪伴客户进行买卖、租赁和投资，涵盖多个细分市场：高端公寓、商铺、复式住宅、顶层公寓等。与 Masterise Homes、Vinhomes、Novaland、Keppel Land 等信誉良好的开发商紧密合作，David Nguyen 始终将诚信、透明度和客户满意度作为首要标准。",
       "partners": {
         "title": "来自领先开发商的产品",
         "developers": [
           {
             "name": "MASTERISE HOMES",
-            "logo": ""
+            "logo": "/images/partners/masterise-homes.png"
           },
           {
             "name": "GAMUDA LAND",
-            "logo": ""
+            "logo": "/images/partners/gamuda-land.png"
           },
           {
             "name": "CapitaLand",
-            "logo": ""
+            "logo": "/images/partners/capitland.png"
           },
           {
             "name": "Hongkong Land",
-            "logo": ""
+            "logo": "/images/partners/hongkong-land.png"
           },
           {
             "name": "KHANG ĐIỀN",
-            "logo": ""
+            "logo": "/images/partners/khangdien.png"
           },
           {
             "name": "VINHOMES",
-            "logo": ""
+            "logo": "/images/partners/vinhome.png"
           },
           {
             "name": "GS E&C",
-            "logo": ""
+            "logo": "/images/partners/gse&c.png"
+          },
+          {
+            "name": "MIKGroup",
+            "logo": "/images/partners/MIKGroup.jpg"
           }
         ]
       },
       "services": {
-        "title": "David Dũng Savills 提供的服务",
+        "title": "David Nguyen 提供的服务",
         "subtitle": "全程陪伴客户",
         "items": [
           {
@@ -84,30 +89,40 @@
           }
         ]
       },
+      "hero": {
+        "slogan": "高端公寓 – 值得的选择",
+        "mainService": "咨询 – 分析 – 全程陪伴高端公寓买卖流程"
+      },
       "slides": [
         {
           "title": "您想购买或出售房产吗？",
-          "subtitle": "您找对经纪人了！",
-          "buttonText": "联系我们",
+          "subtitle": "",
+          "buttonText": "联系",
           "image": ""
         },
         {
-          "title": "专注胡志明市中心房产",
-          "subtitle": "多样化产品：高端公寓、商铺、复式住宅及顶层公寓",
-          "buttonText": "查看房产目录",
+          "title": "河内和胡志明市高端公寓",
+          "subtitle": "",
+          "buttonText": "找公寓",
           "image": ""
         },
         {
-          "title": "全程陪伴客户",
-          "subtitle": "房产咨询、管理与运营、财务咨询、手续支持",
-          "buttonText": "了解更多",
+          "title": "全程陪伴",
+          "subtitle": "",
+          "buttonText": "联系",
+          "image": ""
+        },
+        {
+          "title": "David Nguyen",
+          "subtitle": "",
+          "buttonText": "探索",
           "image": ""
         }
       ]
     },
     "about": {
-      "title": "关于 David Dũng Savills",
-      "paragraph1": "我是 David Dũng，拥有 7 年以上房地产顾问经验，专注于高端公寓、商铺以及胡志明市中心优质物业。",
+      "title": "关于 David Nguyen",
+      "paragraph1": "我是 David Nguyen，拥有 4 年以上房地产顾问经验，全国销售专营河内和胡志明市，专注于高端公寓、商铺以及胡志明市中心优质物业。",
       "paragraph2": "我熟悉各大开发商的销售政策及相关法律流程，能为客户提供合理的资金安排与投资方案。",
       "paragraph3": "多年来我与多家大型开发商保持合作，一直坚持专业、透明并全程陪伴客户完成每一笔交易。"
     },
@@ -118,6 +133,12 @@
         "name": "姓名",
         "phone": "电话号码",
         "email": "邮箱",
+        "purpose": "您想咨询公寓的目的",
+        "purposePlaceholder": "选择目的",
+        "purposeOptions": {
+          "living": "居住",
+          "investment": "投资"
+        },
         "message": "内容",
         "submit": "提交"
       },
@@ -134,7 +155,8 @@
         "title": "社交媒体",
         "linkedin": "LinkedIn",
         "facebook": "Facebook",
-        "zalo": "Zalo: 0936 818 105",
+        "hotline": "热线",
+        "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
         "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
         "zaloPhone": "0936818105"
@@ -148,6 +170,12 @@
         "name": "姓名",
         "phone": "电话号码",
         "email": "邮箱",
+        "purpose": "",
+        "purposePlaceholder": "",
+        "purposeOptions": {
+          "living": "",
+          "investment": ""
+        },
         "message": "内容",
         "submit": "提交"
       },
@@ -164,7 +192,8 @@
         "title": "社交媒体",
         "linkedin": "LinkedIn",
         "facebook": "Facebook",
-        "zalo": "Zalo: 0936 818 105",
+        "hotline": "热线",
+        "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
         "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
         "zaloPhone": "0936818105"
@@ -173,11 +202,11 @@
     }
   },
   "footer": {
-    "description": "拥有 7 年以上房地产顾问经验，专注于高端公寓、商铺以及胡志明市中心优质物业。",
+    "description": "拥有 4 年以上房地产顾问经验，全国销售专营河内和胡志明市，专注于高端公寓、商铺以及胡志明市中心优质物业。",
     "quickLinks": {
       "title": "快速链接",
       "home": "首页",
-      "about": "关于David Dũng",
+      "about": "关于David Nguyen",
       "contactApartment": "联系找公寓",
       "collaborator": "联系做合伙人"
     },
@@ -194,9 +223,10 @@
       "title": "社交媒体",
       "linkedin": "LinkedIn",
       "facebook": "Facebook",
+      "hotline": "热线",
       "zalo": "Zalo"
     },
-    "copyright": "© 2025 David Dũng Savills. 保留所有权利。"
+    "copyright": "© 2025 David Nguyen. 保留所有权利。"
   }
 }
 

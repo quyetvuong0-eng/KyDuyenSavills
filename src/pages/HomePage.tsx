@@ -6,13 +6,8 @@ import ServicesSection from "../components/ServicesSection";
 const HomePage: React.FC = () => {
   return (
     <main>
-      {/* Hero Slider */}
       <HeroSlider />
-
-      {/* Company Introduction & Partners */}
       <CompanyIntro />
-
-      {/* Services Section */}
       <ServicesSection />
     </main>
   );

@@ -1,49 +1,52 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useTranslation } from "../../i18n";
 
 interface LogoProps {
   variant?: "header" | "footer";
   className?: string;
+  size?: "sm" | "md" | "lg" | "xl" | string; // Custom size class
+  transparent?: boolean; // Use transparent background logo
 }
 
-const Logo: React.FC<LogoProps> = ({ variant = "header", className = "" }) => {
-  const { t } = useTranslation();
-
+const Logo: React.FC<LogoProps> = ({ 
+  variant = "header", 
+  className = "",
+  size = "md",
+  transparent = true // PNG logo has transparent background
+}) => {
   const logoClasses = {
-    header: "flex items-center gap-2 hover:opacity-80 transition-opacity",
-    footer: "flex items-center gap-2 mb-4",
+    header: "flex items-center hover:opacity-80 transition-opacity",
+    footer: "flex items-center mb-4",
   };
 
-  const iconClasses = {
-    header: "h-10 w-10",
-    footer: "h-10 w-10",
+  // Default sizes based on variant
+  const defaultSizes = {
+    header: "h-20 w-auto", // Increased from h-12
+    footer: "h-16 w-auto", // Increased from h-10
   };
 
-  const line1Classes = {
-    header: "text-xs tracking-wider text-gray-600 font-light",
-    footer: "text-xs tracking-wider text-gray-400 font-light",
+  // Predefined size options
+  const sizeClasses: Record<string, string> = {
+    sm: "h-12 w-auto",   // Increased from h-8
+    md: "h-16 w-auto",   // Increased from h-12
+    lg: "h-24 w-auto",   // Increased from h-16
+    xl: "h-32 w-auto",   // Increased from h-20
   };
 
-  const line2Classes = {
-    header: "text-base font-semibold text-dark tracking-tight",
-    footer: "text-base font-semibold tracking-tight",
-  };
+  // Determine logo size class
+  const logoSizeClass = size 
+    ? (sizeClasses[size] || size) // Use predefined or custom class
+    : defaultSizes[variant];
+
+  // Use PNG logo with transparent background
+  const logoPath = "/images/logos/image-Photoroom.png";
 
   const logoContent = (
-    <>
-      <div className={`${iconClasses[variant]} rounded-full bg-primary flex items-center justify-center`}>
-        <span className="text-white font-bold text-lg">D</span>
-      </div>
-      <div className="flex flex-col leading-tight">
-        <span className={line1Classes[variant]}>
-          {t.header.logo.line1}
-        </span>
-        <span className={line2Classes[variant]}>
-          {t.header.logo.line2}
-        </span>
-      </div>
-    </>
+    <img
+      src={logoPath}
+            alt="David Nguyen Savills"
+      className={`${logoSizeClass} object-contain`}
+    />
   );
 
   if (variant === "footer") {

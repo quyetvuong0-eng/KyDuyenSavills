@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "../../i18n";
+import { sendEmail, EmailData } from "../../services/emailService";
 
 interface ContactFormProps {
   formKey: "contactApartment" | "collaborator";
@@ -11,6 +12,7 @@ interface FormData {
   name: string;
   phone: string;
   email: string;
+  purpose: string;
   message: string;
 }
 
@@ -24,18 +26,48 @@ const ContactForm: React.FC<ContactFormProps> = ({
     name: "",
     phone: "",
     email: "",
+    purpose: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (onSubmit) {
-      onSubmit(formData);
-    } else {
-      console.log("Form submitted:", formData);
-      alert(t.pages[formKey].successMessage);
+    setIsSubmitting(true);
+
+    try {
+      // Nếu có custom onSubmit handler, sử dụng nó
+      if (onSubmit) {
+        onSubmit(formData);
+        setFormData({ name: "", phone: "", email: "", purpose: "", message: "" });
+        setIsSubmitting(false);
+        return;
+      }
+
+      // Gửi email qua EmailJS
+      const emailData: EmailData = {
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        purpose: formData.purpose,
+        message: formData.message,
+        formType: formKey === "contactApartment" ? "Liên hệ tìm căn hộ" : "Liên hệ làm cộng tác viên",
+      };
+
+      const success = await sendEmail(emailData);
+
+      if (success) {
+        alert(t.pages[formKey].successMessage);
+        setFormData({ name: "", phone: "", email: "", purpose: "", message: "" });
+      } else {
+        alert("Có lỗi xảy ra khi gửi thông tin. Vui lòng thử lại sau hoặc liên hệ trực tiếp qua số điện thoại.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Có lỗi xảy ra khi gửi thông tin. Vui lòng thử lại sau hoặc liên hệ trực tiếp qua số điện thoại.");
+    } finally {
+      setIsSubmitting(false);
     }
-    setFormData({ name: "", phone: "", email: "", message: "" });
   };
 
   const formLabels = t.pages[formKey].form;
@@ -87,6 +119,26 @@ const ContactForm: React.FC<ContactFormProps> = ({
         />
       </div>
 
+      {formKey === "contactApartment" && (
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            {formLabels.purpose}
+          </label>
+          <select
+            required
+            value={formData.purpose}
+            onChange={(e) =>
+              setFormData({ ...formData, purpose: e.target.value })
+            }
+            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
+          >
+            <option value="">{formLabels.purposePlaceholder}</option>
+            <option value={formLabels.purposeOptions.living}>{formLabels.purposeOptions.living}</option>
+            <option value={formLabels.purposeOptions.investment}>{formLabels.purposeOptions.investment}</option>
+          </select>
+        </div>
+      )}
+
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-2">
           {formLabels.message}
@@ -103,9 +155,10 @@ const ContactForm: React.FC<ContactFormProps> = ({
 
       <button
         type="submit"
-        className="w-full bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
+        disabled={isSubmitting}
+        className="w-full bg-primary hover:bg-primary/90 disabled:bg-gray-400 disabled:cursor-not-allowed text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
       >
-        {formLabels.submit}
+        {isSubmitting ? "Đang gửi..." : formLabels.submit}
       </button>
     </form>
   );

@@ -8,14 +8,15 @@
     "social": {
       "linkedin": "LinkedIn",
       "facebook": "Facebook",
+      "hotline": "Hotline",
       "zalo": "Zalo",
       "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
       "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
       "zaloPhone": "0936818105"
     },
     "logo": {
-      "line1": "DAVID DŨNG",
-      "line2": "SAVILLS"
+      "line1": "DAVID",
+      "line2": "NGUYEN"
     },
     "nav": {
       "home": "Trang chủ",
@@ -26,44 +27,48 @@
   },
   "pages": {
     "home": {
-      "title": "David Dũng Savills",
-      "paragraph1": "Chuyên bất động sản trung tâm TP. Hồ Chí Minh, hợp tác với các chủ đầu tư hàng đầu như Masterise Homes, Vinhomes, Novaland, Keppel Land...",
-      "paragraph2": "Từ năm 2017 đến nay, David Dũng đã đồng hành cùng nhiều khách hàng mua bán, cho thuê và đầu tư các dự án căn hộ hạng sang, shophouse, duplex và penthouse, luôn đặt uy tín và sự hài lòng của khách hàng lên hàng đầu.",
+      "title": "David Nguyen",
+      "paragraph1": "Chuyên tư vấn và môi giới bất động sản trên toàn quốc, với trọng tâm là hai thị trường trọng điểm: Hà Nội và TP. Hồ Chí Minh.",
+      "paragraph2": "Từ năm 2021 đến nay, David Nguyen đã đồng hành cùng nhiều khách hàng trong quá trình mua bán, cho thuê và đầu tư ở đa dạng phân khúc: căn hộ cao cấp, shophouse, duplex, penthouse… Với sự hợp tác chặt chẽ cùng các chủ đầu tư uy tín như Masterise Homes, Vinhomes, Novaland, Keppel Land…, David Nguyen luôn đặt chữ tín, sự minh bạch và sự hài lòng của khách hàng làm tiêu chí hàng đầu.",
       "partners": {
         "title": "Sản phẩm từ các Chủ Đầu Tư hàng đầu",
         "developers": [
           {
             "name": "MASTERISE HOMES",
-            "logo": ""
+            "logo": "/images/partners/masterise-homes.png"
           },
           {
             "name": "GAMUDA LAND",
-            "logo": ""
+            "logo": "/images/partners/gamuda-land.png"
           },
           {
             "name": "CapitaLand",
-            "logo": ""
+            "logo": "/images/partners/capitland.png"
           },
           {
             "name": "Hongkong Land",
-            "logo": ""
+            "logo": "/images/partners/hongkong-land.png"
           },
           {
             "name": "KHANG ĐIỀN",
-            "logo": ""
+            "logo": "/images/partners/khangdien.png"
           },
           {
             "name": "VINHOMES",
-            "logo": ""
+            "logo": "/images/partners/vinhome.png"
           },
           {
             "name": "GS E&C",
-            "logo": ""
+            "logo": "/images/partners/gse&c.png"
+          },
+          {
+            "name": "MIKGroup",
+            "logo": "/images/partners/MIKGroup.jpg"
           }
         ]
       },
       "services": {
-        "title": "Dịch vụ David Dũng Savills cung cấp",
+        "title": "Dịch vụ David Nguyen cung cấp",
         "subtitle": "Đồng hành xuyên suốt cùng Quý khách",
         "items": [
           {
@@ -84,30 +89,40 @@
           }
         ]
       },
+      "hero": {
+        "slogan": "Căn hộ xứng tầm – lựa chọn xứng đáng",
+        "mainService": "Tư vấn – phân tích – đồng hành trọn quy trình mua bán căn hộ cao cấp"
+      },
       "slides": [
         {
           "title": "BẠN ĐANG MUỐN MUA HOẶC BÁN BẤT ĐỘNG SẢN?",
-          "subtitle": "Bạn tìm đúng người môi giới rồi đấy!",
+          "subtitle": "",
           "buttonText": "LIÊN HỆ",
           "image": ""
         },
         {
-          "title": "Chuyên bất động sản trung tâm TP Hồ Chí Minh",
-          "subtitle": "Đa dạng sản phẩm Căn hộ hạng sang, Shophouse, Duplex và Penthouse tại TP.HCM",
-          "buttonText": "XEM DANH MỤC BĐS",
+          "title": "Căn hộ cao cấp Hà Nội & TP. Hồ Chí Minh",
+          "subtitle": "",
+          "buttonText": "TÌM CĂN HỘ",
           "image": ""
         },
         {
-          "title": "Đồng hành xuyên suốt cùng Quý khách",
-          "subtitle": "Tư vấn Bất Động Sản, Quản Lý & Vận Hành, Tư Vấn Tài Chính, Hỗ Trợ Thủ Tục",
-          "buttonText": "TÌM HIỂU THÊM",
+          "title": "Đồng hành trọn quy trình",
+          "subtitle": "",
+          "buttonText": "LIÊN HỆ",
+          "image": ""
+        },
+        {
+          "title": "David Nguyen",
+          "subtitle": "",
+          "buttonText": "KHÁM PHÁ",
           "image": ""
         }
       ]
     },
     "about": {
-      "title": "Giới thiệu về David Dũng Savills",
-      "paragraph1": "Mình là David Dũng, chuyên viên tư vấn bất động sản với hơn 7 năm kinh nghiệm, tập trung vào phân khúc căn hộ cao cấp, shophouse và bất động sản trung tâm TP. Hồ Chí Minh.",
+      "title": "Giới thiệu về David Nguyen",
+      "paragraph1": "Mình là David Nguyen, chuyên viên tư vấn bất động sản với hơn 4 năm kinh nghiệm, bán hàng toàn quốc chuyên Hà Nội và Hồ Chí Minh, tập trung vào phân khúc căn hộ cao cấp, shophouse và bất động sản trung tâm TP. Hồ Chí Minh.",
       "paragraph2": "Thế mạnh của mình là am hiểu sâu về pháp lý, chính sách bán hàng của các chủ đầu tư, cũng như hỗ trợ khách hàng tối ưu tài chính và dòng tiền khi đầu tư.",
       "paragraph3": "Mình đã và đang hợp tác với nhiều chủ đầu tư lớn trên thị trường, luôn giữ tinh thần làm việc chuyên nghiệp, minh bạch và đồng hành cùng khách hàng trong suốt quá trình giao dịch."
     },
@@ -118,6 +133,12 @@
         "name": "Họ và tên",
         "phone": "Số điện thoại",
         "email": "Email",
+        "purpose": "Bạn muốn tư vấn căn hộ",
+        "purposePlaceholder": "Chọn mục đích",
+        "purposeOptions": {
+          "living": "Để ở",
+          "investment": "Để đầu tư"
+        },
         "message": "Nội dung",
         "submit": "Gửi thông tin"
       },
@@ -134,7 +155,8 @@
         "title": "Mạng xã hội",
         "linkedin": "LinkedIn",
         "facebook": "Facebook",
-        "zalo": "Zalo: 0936 818 105",
+        "hotline": "Hotline",
+        "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
         "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
         "zaloPhone": "0936818105"
@@ -148,6 +170,12 @@
         "name": "Họ và tên",
         "phone": "Số điện thoại",
         "email": "Email",
+        "purpose": "",
+        "purposePlaceholder": "",
+        "purposeOptions": {
+          "living": "",
+          "investment": ""
+        },
         "message": "Nội dung",
         "submit": "Gửi thông tin"
       },
@@ -164,7 +192,8 @@
         "title": "Mạng xã hội",
         "linkedin": "LinkedIn",
         "facebook": "Facebook",
-        "zalo": "Zalo: 0936 818 105",
+        "hotline": "Hotline",
+        "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
         "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
         "zaloPhone": "0936818105"
@@ -173,7 +202,7 @@
     }
   },
   "footer": {
-    "description": "Chuyên viên tư vấn bất động sản với hơn 7 năm kinh nghiệm, tập trung vào phân khúc căn hộ cao cấp, shophouse và bất động sản trung tâm TP. Hồ Chí Minh.",
+    "description": "Chuyên viên tư vấn bất động sản với hơn 4 năm kinh nghiệm, bán hàng toàn quốc chuyên Hà Nội và Hồ Chí Minh, tập trung vào phân khúc căn hộ cao cấp, shophouse và bất động sản trung tâm TP. Hồ Chí Minh.",
     "quickLinks": {
       "title": "Liên kết nhanh",
       "home": "Trang chủ",
@@ -194,9 +223,10 @@
       "title": "Mạng xã hội",
       "linkedin": "LinkedIn",
       "facebook": "Facebook",
+      "hotline": "Hotline",
       "zalo": "Zalo"
     },
-    "copyright": "© 2025 David Dũng Savills. Tất cả quyền được bảo lưu."
+    "copyright": "© 2025 David Nguyen. Tất cả quyền được bảo lưu."
   }
 }
 

@@ -14,12 +14,14 @@ const App: React.FC = () => {
       <div className="min-h-screen bg-white flex flex-col">
         <Header />
         <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/gioi-thieu" element={<GioiThieuPage />} />
-            <Route path="/lien-he-tim-can-ho" element={<LienHeTimCanHoPage />} />
-            <Route path="/cong-tac-vien" element={<CongTacVienPage />} />
-          </Routes>
+          <div className="w-full lg:w-[65%] lg:mx-auto">
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/lien-he-tim-can-ho" element={<LienHeTimCanHoPage />} />
+              <Route path="/cong-tac-vien" element={<CongTacVienPage />} />
+              <Route path="/gioi-thieu" element={<GioiThieuPage />} />
+            </Routes>
+          </div>
         </main>
         <Footer />
       </div>

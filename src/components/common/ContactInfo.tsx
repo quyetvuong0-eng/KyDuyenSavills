@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "../../i18n";
 import SocialLinks from "./SocialLinks";
+import { PhoneIcon } from "./icons";
 
 interface ContactInfoProps {
   variant?: "footer" | "page";
@@ -65,11 +66,29 @@ const ContactInfo: React.FC<ContactInfoProps> = ({
         {contactData.title}
       </h2>
       <div className={textClasses[variant]}>
-        <p>
+        <p className="flex items-center gap-2 flex-wrap">
           <span className={labelClasses[variant]}>
             {contactData.phone}
-          </span>{" "}
-          {contactData.phoneValue}
+          </span>
+          <a
+            href={`tel:${contactData.phoneValue.replace(/\s/g, "")}`}
+            className={`flex items-center gap-2 transition-colors group ${
+              variant === "footer" 
+                ? "text-gray-400 hover:text-primary" 
+                : "hover:text-primary"
+            }`}
+            aria-label={`Gọi đến ${contactData.phoneValue}`}
+          >
+            <PhoneIcon 
+              variant="stroke"
+              className={`w-5 h-5 group-hover:scale-110 transition-transform ${
+                variant === "footer" ? "text-primary" : "text-primary"
+              }`}
+            />
+            <span>
+              {contactData.phoneValue}
+            </span>
+          </a>
         </p>
         <p>
           <span className={labelClasses[variant]}>
