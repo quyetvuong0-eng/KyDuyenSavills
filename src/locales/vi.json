@@ -122,9 +122,22 @@
     },
     "about": {
       "title": "Giới thiệu về David Nguyen",
-      "paragraph1": "Mình là David Nguyen, chuyên viên tư vấn bất động sản với hơn 4 năm kinh nghiệm, bán hàng toàn quốc chuyên Hà Nội và Hồ Chí Minh, tập trung vào phân khúc căn hộ cao cấp, shophouse và bất động sản trung tâm TP. Hồ Chí Minh.",
-      "paragraph2": "Thế mạnh của mình là am hiểu sâu về pháp lý, chính sách bán hàng của các chủ đầu tư, cũng như hỗ trợ khách hàng tối ưu tài chính và dòng tiền khi đầu tư.",
-      "paragraph3": "Mình đã và đang hợp tác với nhiều chủ đầu tư lớn trên thị trường, luôn giữ tinh thần làm việc chuyên nghiệp, minh bạch và đồng hành cùng khách hàng trong suốt quá trình giao dịch."
+      "avatar": "/images/about/about-nb.jpg",
+      "avatarAlt": "David Nguyen - Chuyên viên tư vấn bất động sản",
+      "introduction": "Mình là {name}, chuyên viên tư vấn bất động sản với hơn {years} năm kinh nghiệm, bán hàng toàn quốc chuyên Hà Nội và Hồ Chí Minh, tập trung vào phân khúc căn hộ cao cấp, shophouse và bất động sản trung tâm TP. Hồ Chí Minh.",
+      "introductionName": "David Nguyen",
+      "introductionYears": "4",
+      "strengths": {
+        "title": "Thế mạnh",
+        "description": "Thế mạnh của mình là am hiểu sâu về pháp lý, chính sách bán hàng của các chủ đầu tư, cũng như hỗ trợ khách hàng tối ưu tài chính và dòng tiền khi đầu tư."
+      },
+      "partnership": {
+        "title": "Hợp tác với chủ đầu tư",
+        "description": "Mình đã và đang hợp tác với nhiều chủ đầu tư lớn trên thị trường, luôn giữ tinh thần làm việc {professional}, {transparent} và {accompany} cùng khách hàng trong suốt quá trình giao dịch.",
+        "professional": "chuyên nghiệp",
+        "transparent": "minh bạch",
+        "accompany": "đồng hành"
+      }
     },
     "contactApartment": {
       "title": "Liên hệ tìm căn hộ",

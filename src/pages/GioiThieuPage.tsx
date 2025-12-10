@@ -2,7 +2,6 @@ import React from "react";
 import { useTranslation } from "../i18n";
 import AboutContent from "../components/AboutContent";
 import ContactSocialSection from "../components/ContactSocialSection";
-import ContactFormSection from "../components/ContactFormSection";
 
 const GioiThieuPage: React.FC = () => {
   const { t } = useTranslation();

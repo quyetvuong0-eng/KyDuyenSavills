@@ -6,14 +6,39 @@ const HeroSlider: React.FC = () => {
   const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   const slides = t.pages.home.slides || [];
 
+  // Detect mobile/desktop based on window width (lg breakpoint = 1024px)
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth < 1024);
+    };
+
+    // Check on mount
+    checkIsMobile();
+
+    // Listen for resize events
+    window.addEventListener("resize", checkIsMobile);
+
+    return () => {
+      window.removeEventListener("resize", checkIsMobile);
+    };
+  }, []);
+
   // Map slides with images from /images/slides directory
-  const slidesWithImages = slides.map((slide: any, index: number) => ({
-    ...slide,
-    image: slide.image || `/images/slides/slide${index + 1}.jpg`,
-  }));
+  // Mobile: mb-slide1.jpg, mb-slide2.jpg, mb-slide3.jpg
+  // Desktop: dt-slide1.jpg, dt-slide2.jpg, dt-slide3.jpg
+  const slidesWithImages = slides.map((slide: any, index: number) => {
+    const imagePrefix = isMobile ? "mb" : "dt";
+    const defaultImage = slide.image || `/images/slides/${imagePrefix}-slide${index + 1}.jpg`;
+    
+    return {
+      ...slide,
+      image: defaultImage,
+    };
+  });
 
   useEffect(() => {
     if (slidesWithImages.length === 0) return;
@@ -42,7 +67,7 @@ const HeroSlider: React.FC = () => {
   }
 
   return (
-    <div className="group relative w-full h-screen min-h-[700px] overflow-hidden mt-16">
+    <div className="group relative w-full overflow-hidden" style={{ marginTop: '95px', height: 'calc(100vh - 95px)', minHeight: '620px', zIndex: 1 }}>
       {/* Slides */}
       <div className="relative w-full h-full">
         {slidesWithImages.map((slide: any, index: number) => (
@@ -55,6 +80,7 @@ const HeroSlider: React.FC = () => {
             {/* Background Image - Full cover to fill the entire container */}
             <div className="absolute inset-0 w-full h-full bg-black">
               <img
+                key={`${isMobile ? 'mb' : 'dt'}-slide-${index}`}
                 src={slide.image || undefined}
                 alt={slide.title || "Slide"}
                 className="w-full h-full object-cover object-center"

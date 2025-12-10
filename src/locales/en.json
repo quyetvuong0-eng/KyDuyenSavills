@@ -122,9 +122,22 @@
     },
     "about": {
       "title": "About David Nguyen",
-      "paragraph1": "I am David Nguyen, a real estate consultant with over 4 years of experience, selling nationwide specializing in Hanoi and Ho Chi Minh City, focusing on premium apartments, shophouses and central Ho Chi Minh City properties.",
-      "paragraph2": "My strengths are deep understanding of legal procedures, sales policies of developers and helping clients optimize finance and cash flow when investing.",
-      "paragraph3": "I have been cooperating with many major developers in the market, always working professionally, transparently and accompanying clients throughout the transaction process."
+      "avatar": "/images/about/about-nb.jpg",
+      "avatarAlt": "David Nguyen - Real Estate Consultant",
+      "introduction": "I am {name}, a real estate consultant with over {years} years of experience, selling nationwide specializing in Hanoi and Ho Chi Minh City, focusing on premium apartments, shophouses and central Ho Chi Minh City properties.",
+      "introductionName": "David Nguyen",
+      "introductionYears": "4",
+      "strengths": {
+        "title": "Strengths",
+        "description": "My strengths are deep understanding of legal procedures, sales policies of developers and helping clients optimize finance and cash flow when investing."
+      },
+      "partnership": {
+        "title": "Partnership with Developers",
+        "description": "I have been cooperating with many major developers in the market, always working {professional}, {transparent} and {accompany} clients throughout the transaction process.",
+        "professional": "professionally",
+        "transparent": "transparently",
+        "accompany": "accompanying"
+      }
     },
     "contactApartment": {
       "title": "Contact for Apartment",
