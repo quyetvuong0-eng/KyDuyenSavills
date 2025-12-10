@@ -30,7 +30,8 @@ const HeroSlider: React.FC = () => {
   // Map slides with images from /images/slides directory
   // Mobile: mb-slide1.jpg, mb-slide2.jpg, mb-slide3.jpg
   // Desktop: dt-slide1.jpg, dt-slide2.jpg, dt-slide3.jpg
-  const slidesWithImages = slides.map((slide: any, index: number) => {
+  // Chỉ lấy 3 slides đầu tiên vì chỉ có 3 ảnh
+  const slidesWithImages = slides.slice(0, 3).map((slide: any, index: number) => {
     const imagePrefix = isMobile ? "mb" : "dt";
     const defaultImage = slide.image || `/images/slides/${imagePrefix}-slide${index + 1}.jpg`;
     
