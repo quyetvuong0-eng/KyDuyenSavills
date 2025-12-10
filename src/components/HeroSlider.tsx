@@ -78,15 +78,16 @@ const HeroSlider: React.FC = () => {
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
-            {/* Background Image - Full cover to fill the entire container */}
+            {/* Background Image - Fill entire container, may stretch to fit */}
             <div className="absolute inset-0 w-full h-full bg-black">
               <img
                 key={`${isMobile ? 'mb' : 'dt'}-slide-${index}`}
                 src={slide.image || undefined}
                 alt={slide.title || "Slide"}
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full"
                 style={{
                   backgroundColor: slide.image ? "transparent" : "#1a1a1a",
+                  objectFit: "fill",
                 }}
                 onError={(e) => {
                   // Fallback to gradient if image fails to load
