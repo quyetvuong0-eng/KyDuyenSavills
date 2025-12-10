@@ -4,7 +4,7 @@ import ServicesSection from "../components/ServicesSection";
 
 const HomePage: React.FC = () => {
   return (
-    <main>
+    <main className="w-full mx-auto md:w-[80%] lg:w-[65%]">
       <CompanyIntro />
       <ServicesSection />
     </main>
