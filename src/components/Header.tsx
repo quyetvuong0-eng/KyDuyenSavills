@@ -16,9 +16,9 @@ const Header: React.FC = () => {
 
   const mobileLinks = [
     { to: "/", label: t.header.nav.home, end: true },
-    { to: "/gioi-thieu", label: t.header.nav.about },
     { to: "/lien-he-tim-can-ho", label: t.header.nav.contactApartment },
     { to: "/cong-tac-vien", label: t.header.nav.collaborator },
+    { to: "/gioi-thieu", label: t.header.nav.about },
   ];
 
   return (

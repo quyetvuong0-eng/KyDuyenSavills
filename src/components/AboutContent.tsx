@@ -37,9 +37,9 @@ const AboutContent: React.FC = () => {
   return (
     <div className="mb-12">
       {/* Professional Layout with Avatar and Content */}
-      <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-8 items-start">
         {/* Avatar Section */}
-        <div className="w-full lg:w-1/3 flex-shrink-0">
+        <div className="w-full lg:w-2/5 flex-shrink-0">
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-[#d4af37]/20">
               <img

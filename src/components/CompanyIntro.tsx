@@ -8,22 +8,43 @@ const CompanyIntro: React.FC = () => {
     <div className="bg-white">
       {/* Company Introduction Section */}
       <section className="px-6 lg:px-16 py-12 my-4 rounded-lg">
+        {/* Title - Full width */}
+        <div className="mb-6 lg:mb-8">
+          <h1 className="text-3xl lg:text-4xl font-bold text-[#d4af37] mb-3">
+            {t.pages.home.title}
+          </h1>
+          <div className="w-16 h-1 bg-[#d4af37]"></div>
+        </div>
+
         <div className="flex flex-col lg:flex-row lg:items-start lg:gap-12">
-          {/* Company Name */}
+          {/* Image Section */}
           <div className="lg:w-1/3 mb-6 lg:mb-0">
-            <h1 className="text-3xl lg:text-4xl font-bold text-[#d4af37] mb-3">
-              {t.pages.home.title}
-            </h1>
-            <div className="w-16 h-1 bg-[#d4af37]"></div>
+            <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-[#d4af37]/20">
+              <img
+                src="/images/about/about-nb-2.jpg"
+                alt="David Nguyen - Chuyên viên tư vấn bất động sản"
+                className="w-full h-auto object-cover"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.style.display = "none";
+                }}
+              />
+            </div>
           </div>
 
           {/* Company Description */}
           <div className="lg:w-2/3">
-            <p className="text-gray-700 mb-4 text-base leading-relaxed">
+            <p className="text-gray-700 mb-4 text-base leading-relaxed text-justify">
               {t.pages.home.paragraph1}
             </p>
-            <p className="text-gray-700 text-base leading-relaxed">
+            <p className="text-gray-700 mb-4 text-base leading-relaxed text-justify">
               {t.pages.home.paragraph2}
+            </p>
+            <p className="text-gray-700 mb-4 text-base leading-relaxed text-justify">
+              {t.pages.home.paragraph3}
+            </p>
+            <p className="text-gray-700 text-base leading-relaxed text-justify">
+              {t.pages.home.paragraph4}
             </p>
           </div>
         </div>
