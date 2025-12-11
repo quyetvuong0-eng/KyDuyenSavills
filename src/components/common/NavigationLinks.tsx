@@ -15,14 +15,14 @@ const NavigationLinks: React.FC<NavigationLinksProps> = ({
 
   const linkClasses = {
     header: ({ isActive }: { isActive: boolean }) =>
-      `text-sm font-medium text-gray-900 hover:text-primary transition-colors duration-200 ${
+      `text-lg font-medium text-gray-900 hover:text-primary transition-colors duration-200 ${
         isActive ? "text-primary" : ""
       }`,
     footer: "text-gray-400 hover:text-primary transition-colors duration-200 text-sm",
   };
 
   const containerClasses = {
-    header: "hidden md:flex items-center gap-6 lg:gap-8",
+    header: "hidden md:flex items-center gap-8 lg:gap-12",
     footer: "space-y-2",
   };
 
