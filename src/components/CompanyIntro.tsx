@@ -12,7 +12,7 @@ const CompanyIntro: React.FC = () => {
       {/* Company Introduction Section */}
       <section 
         ref={introRef}
-        className={`px-6 lg:px-16 py-12 my-4 rounded-lg transition-all duration-700 ease-out ${
+        className={`px-6 lg:px-16 py-12 my-4 rounded-lg transition-all duration-[1200ms] ease-out ${
           introVisible 
             ? 'opacity-100 translate-y-0' 
             : 'opacity-0 translate-y-10'
@@ -64,7 +64,7 @@ const CompanyIntro: React.FC = () => {
       {/* Partners Section */}
       <section 
         ref={partnersRef}
-        className={`bg-[#d4af37] px-6 lg:px-16 py-12 rounded-lg transition-all duration-700 ease-out ${
+        className={`bg-[#d4af37] px-6 lg:px-16 py-12 rounded-lg transition-all duration-[1200ms] ease-out ${
           partnersVisible 
             ? 'opacity-100 translate-y-0' 
             : 'opacity-0 translate-y-10'

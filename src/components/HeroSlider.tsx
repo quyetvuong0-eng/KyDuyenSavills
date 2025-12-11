@@ -74,7 +74,7 @@ const HeroSlider: React.FC = () => {
         {slidesWithImages.map((slide: any, index: number) => (
           <div
             key={index}
-            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
+            className={`absolute inset-0 transition-opacity duration-[1500ms] ease-in-out ${
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
@@ -107,7 +107,7 @@ const HeroSlider: React.FC = () => {
             <div className="relative h-full flex items-end justify-center px-6 lg:px-16 pb-16 md:pb-24 z-20">
                 <div className="text-center max-w-3xl lg:max-w-[70%] w-full">
                    {/* Slogan - Keep mobile size, larger on desktop */}
-                  <div className={`mb-2 md:mb-3 lg:mb-4 transition-all duration-700 ease-out ${
+                  <div className={`mb-2 md:mb-3 lg:mb-4 transition-all duration-[1200ms] ease-out ${
                     index === currentSlide 
                       ? 'opacity-100 translate-y-0' 
                       : 'opacity-0 translate-y-4'
@@ -121,7 +121,7 @@ const HeroSlider: React.FC = () => {
                   </div>
                   
                   {/* Title - Keep mobile size, larger on desktop */}
-                  <h1 className={`text-2xl md:text-3xl lg:text-4xl font-light mb-2 md:mb-3 lg:mb-4 tracking-tight text-white drop-shadow-2xl transition-all duration-700 ease-out ${
+                  <h1 className={`text-2xl md:text-3xl lg:text-4xl font-light mb-2 md:mb-3 lg:mb-4 tracking-tight text-white drop-shadow-2xl transition-all duration-[1200ms] ease-out ${
                     index === currentSlide 
                       ? 'opacity-100 translate-y-0' 
                       : 'opacity-0 translate-y-4'
@@ -130,7 +130,7 @@ const HeroSlider: React.FC = () => {
                   </h1>
                   {/* Subtitle - Keep mobile size, larger on desktop */}
                   {slide.subtitle && (
-                    <p className={`text-sm md:text-base lg:text-lg mb-3 md:mb-4 lg:mb-5 font-light text-white/95 drop-shadow-2xl transition-all duration-700 ease-out ${
+                    <p className={`text-sm md:text-base lg:text-lg mb-3 md:mb-4 lg:mb-5 font-light text-white/95 drop-shadow-2xl transition-all duration-[1200ms] ease-out ${
                       index === currentSlide 
                         ? 'opacity-100 translate-y-0' 
                         : 'opacity-0 translate-y-4'
@@ -142,7 +142,7 @@ const HeroSlider: React.FC = () => {
                   {slide.buttonText && (
                     <button 
                       onClick={() => setIsModalOpen(true)}
-                      className={`bg-primary text-white hover:bg-primary/90 px-5 py-1.5 md:px-6 md:py-2 lg:px-8 lg:py-3 text-xs md:text-sm lg:text-base font-medium tracking-wide transition-all duration-500 hover:scale-110 shadow-lg rounded-lg ${
+                      className={`bg-primary text-white hover:bg-primary/90 px-5 py-1.5 md:px-6 md:py-2 lg:px-8 lg:py-3 text-xs md:text-sm lg:text-base font-medium tracking-wide transition-all duration-[1000ms] hover:scale-110 shadow-lg rounded-lg ${
                         index === currentSlide 
                           ? 'opacity-100 translate-y-0' 
                           : 'opacity-0 translate-y-4'
