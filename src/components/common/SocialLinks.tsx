@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "../../i18n";
-import { LinkedInIcon, FacebookIcon, PhoneIcon, ZaloIcon } from "./icons";
+import { LinkedInIcon, FacebookIcon, PhoneIcon } from "./icons";
+import IconZalo from "./icons/IconZalo";
 
 interface SocialLinksProps {
   variant?: "header" | "footer" | "page";
@@ -90,10 +91,16 @@ const SocialLinks: React.FC<SocialLinksProps> = ({
         href={`https://zalo.me/${socialData.zaloPhone}`}
         target="_blank"
         rel="noopener noreferrer"
-        className={linkClasses[variant]}
+        className={`${linkClasses[variant]} group`}
         aria-label={socialData.zaloLabel}
       >
-        <ZaloIcon className={iconSize} />
+        <IconZalo 
+          width={20} 
+          height={20} 
+          className={`${iconSize} transition-all duration-300 group-hover:scale-110`}
+          primaryColor="currentColor"
+          secondaryColor="currentColor"
+        />
         {(showLabels || variant !== "header") && <span>{socialData.zaloLabel}</span>}
       </a>
     </div>

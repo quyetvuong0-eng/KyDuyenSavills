@@ -16,7 +16,7 @@ const ContactSocialSection: React.FC<ContactSocialSectionProps> = ({
 
   return (
     <div
-      className={`mt-12 pt-8 ${showBorder ? "border-t border-gray-200" : ""} ${className}`}
+      className={`mt-12 mb-12 pt-8 ${showBorder ? "border-t border-gray-200" : ""} ${className}`}
     >
       <div className="grid md:grid-cols-2 gap-8">
         {/* Contact Info */}

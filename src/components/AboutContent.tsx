@@ -1,9 +1,11 @@
 import React from "react";
 import { useTranslation } from "../i18n";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 const AboutContent: React.FC = () => {
   const { t } = useTranslation();
   const aboutData = t.pages.about;
+  const { elementRef, isVisible } = useScrollAnimation();
 
   // Helper function to safely render text with highlighted keywords
   const renderTextWithHighlights = (
@@ -35,17 +37,25 @@ const AboutContent: React.FC = () => {
   };
 
   return (
-    <div className="mb-12">
+    <div 
+      ref={elementRef}
+      className={`mb-12 transition-all duration-700 ease-out ${
+        isVisible 
+          ? 'opacity-100 translate-y-0' 
+          : 'opacity-0 translate-y-10'
+      }`}
+    >
       {/* Professional Layout with Avatar and Content */}
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-8 items-start">
         {/* Avatar Section */}
         <div className="w-full lg:w-2/5 flex-shrink-0">
           <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-[#d4af37]/20">
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-[#d4af37]/20 transition-transform duration-300 hover:scale-105">
               <img
                 src={aboutData.avatar}
                 alt={aboutData.avatarAlt}
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover transition-transform duration-500 hover:scale-110"
+                loading="lazy"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.style.display = "none";
@@ -69,7 +79,7 @@ const AboutContent: React.FC = () => {
 
           {/* Introduction Paragraph */}
           <div className="space-y-4">
-            <p className="text-gray-700 text-base lg:text-lg leading-relaxed">
+            <p className="text-gray-700 text-base lg:text-lg leading-relaxed text-justify">
               {renderTextWithHighlights(aboutData.introduction, {
                 name: aboutData.introductionName,
                 years: aboutData.introductionYears
@@ -77,21 +87,21 @@ const AboutContent: React.FC = () => {
             </p>
 
             {/* Strengths Section */}
-            <div className="bg-gradient-to-r from-[#d4af37]/5 to-transparent p-6 rounded-lg border-l-4 border-[#d4af37]">
+            <div className="bg-gradient-to-r from-[#d4af37]/5 to-transparent p-6 rounded-lg border-l-4 border-[#d4af37] transition-all duration-300 hover:shadow-lg hover:scale-[1.02]">
               <h3 className="text-xl font-semibold text-[#d4af37] mb-3">
                 {aboutData.strengths.title}
               </h3>
-              <p className="text-gray-700 text-base lg:text-lg leading-relaxed">
+              <p className="text-gray-700 text-base lg:text-lg leading-relaxed text-justify">
                 {aboutData.strengths.description}
               </p>
             </div>
 
             {/* Partnership Section */}
-            <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+            <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
               <h3 className="text-xl font-semibold text-[#d4af37] mb-3">
                 {aboutData.partnership.title}
               </h3>
-              <p className="text-gray-700 text-base lg:text-lg leading-relaxed">
+              <p className="text-gray-700 text-base lg:text-lg leading-relaxed text-justify">
                 {renderTextWithHighlights(aboutData.partnership.description, {
                   professional: aboutData.partnership.professional,
                   transparent: aboutData.partnership.transparent,

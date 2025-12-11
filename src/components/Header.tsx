@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "../i18n";
+import { useStickyHeader } from "../hooks/useStickyHeader";
 import Logo from "./common/Logo";
 import NavigationLinks from "./common/NavigationLinks";
 import SocialLinks from "./common/SocialLinks";
@@ -9,6 +10,7 @@ import LanguageDropdown from "./common/LanguageDropdown";
 const Header: React.FC = () => {
   const { t } = useTranslation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const isScrolled = useStickyHeader();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -22,7 +24,11 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200/50">
+    <header className={`fixed top-0 left-0 right-0 z-50 border-b border-gray-200/50 transition-all duration-300 ${
+      isScrolled 
+        ? 'bg-white/98 backdrop-blur-md shadow-md' 
+        : 'bg-white/95 backdrop-blur-sm'
+    }`}>
       <div className="flex items-center justify-between px-6 lg:px-12 xl:px-16 py-4">
         <Logo variant="header" />
         

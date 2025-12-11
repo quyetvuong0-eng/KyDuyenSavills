@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HeroSlider from "./components/HeroSlider";
+import FloatingActionButtons from "./components/common/FloatingActionButtons";
 import HomePage from "./pages/HomePage";
 import GioiThieuPage from "./pages/GioiThieuPage";
 import LienHeTimCanHoPage from "./pages/LienHeTimCanHoPage";
@@ -24,6 +25,7 @@ const App: React.FC = () => {
           </Routes>
         </main>
         <Footer />
+        {/* <FloatingActionButtons /> */}
       </div>
       <Analytics />
     </BrowserRouter>
