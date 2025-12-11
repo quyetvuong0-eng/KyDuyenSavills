@@ -87,7 +87,7 @@ const CompanyIntro: React.FC = () => {
             {t.pages.home.partners.developers.slice(0, 6).map((developer, index) => (
               <div
                 key={index}
-                className="bg-white/95 rounded-lg p-4 lg:p-6 flex items-center justify-center hover:shadow-xl hover:scale-105 transition-all duration-300 min-h-[120px] backdrop-blur-sm"
+                className="bg-white rounded-lg p-4 lg:p-6 flex items-center justify-center hover:shadow-xl hover:scale-105 transition-all duration-300 min-h-[120px] backdrop-blur-sm"
               >
                 <div className="text-center w-full h-full flex items-center justify-center">
                   {developer.logo ? (
