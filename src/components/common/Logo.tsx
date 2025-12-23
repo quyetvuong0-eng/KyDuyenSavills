@@ -8,8 +8,8 @@ interface LogoProps {
   transparent?: boolean; // Use transparent background logo
 }
 
-const Logo: React.FC<LogoProps> = ({ 
-  variant = "header", 
+const Logo: React.FC<LogoProps> = ({
+  variant = "header",
   className = "",
   size = "md",
   transparent = true // PNG logo has transparent background
@@ -34,7 +34,7 @@ const Logo: React.FC<LogoProps> = ({
   };
 
   // Determine logo size class
-  const logoSizeClass = size 
+  const logoSizeClass = size
     ? (sizeClasses[size] || size) // Use predefined or custom class
     : defaultSizes[variant];
 
@@ -44,7 +44,7 @@ const Logo: React.FC<LogoProps> = ({
   const logoContent = (
     <img
       src={logoPath}
-            alt="David Nguyen Savills"
+      alt="Kỳ Duyên Savills"
       className={`${logoSizeClass} object-contain`}
     />
   );

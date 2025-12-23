@@ -15,8 +15,8 @@
       "zaloPhone": "0936818105"
     },
     "logo": {
-      "line1": "DAVID",
-      "line2": "NGUYEN"
+      "line1": "KỲ DUYÊN",
+      "line2": "SAVILLS"
     },
     "nav": {
       "home": "Trang chủ",
@@ -27,11 +27,11 @@
   },
   "pages": {
     "home": {
-      "title": "David Nguyen",
+      "title": "Kỳ Duyên Savills",
       "paragraph1": "Chuyên tư vấn và môi giới bất động sản trên toàn quốc, tập trung tại hai thị trường trọng điểm: Hà Nội và TP. Hồ Chí Minh.",
-      "paragraph2": "Từ năm 2021 đến nay, David Nguyen đã đồng hành cùng hàng trăm khách hàng trong giao dịch mua bán, cho thuê và đầu tư ở các phân khúc cao cấp: căn hộ hạng sang, shophouse, duplex, penthouse…",
-      "paragraph3": "Hiện tại, David đang công tác tại Savills Hà Nội – nền tảng giúp mình tiếp cận quy trình chuẩn quốc tế, hệ thống dữ liệu minh bạch và các dự án từ những chủ đầu tư uy tín như Masterise Homes, Vinhomes, Novaland, Keppel Land…",
-      "paragraph4": "Dù ở bất cứ giao dịch nào, David luôn đặt chữ tín, chuyên môn và sự hài lòng của khách hàng là ưu tiên số 1",
+      "paragraph2": "Từ năm 2021 đến nay, Kỳ Duyên Savills đã đồng hành cùng hàng trăm khách hàng trong giao dịch mua bán, cho thuê và đầu tư ở các phân khúc cao cấp: căn hộ hạng sang, shophouse, duplex, penthouse…",
+      "paragraph3": "Hiện tại, Kỳ Duyên Savills đang công tác tại Savills Hà Nội – nền tảng giúp mình tiếp cận quy trình chuẩn quốc tế, hệ thống dữ liệu minh bạch và các dự án từ những chủ đầu tư uy tín như Masterise Homes, Vinhomes, Novaland, Keppel Land…",
+      "paragraph4": "Dù ở bất cứ giao dịch nào, Kỳ Duyên Savills luôn đặt chữ tín, chuyên môn và sự hài lòng của khách hàng là ưu tiên số 1",
       "partners": {
         "title": "Sản phẩm từ các Chủ Đầu Tư hàng đầu",
         "developers": [
@@ -70,7 +70,7 @@
         ]
       },
       "services": {
-        "title": "Dịch vụ David Nguyen cung cấp",
+        "title": "Dịch vụ Kỳ Duyên Savills cung cấp",
         "subtitle": "Đồng hành xuyên suốt cùng Quý khách",
         "items": [
           {
@@ -115,7 +115,7 @@
           "image": ""
         },
         {
-          "title": "David Nguyen",
+          "title": "Kỳ Duyên Savills",
           "subtitle": "",
           "buttonText": "KHÁM PHÁ",
           "image": ""
@@ -123,11 +123,11 @@
       ]
     },
     "about": {
-      "title": "Giới thiệu về David Nguyen",
+      "title": "Giới thiệu về Kỳ Duyên Savills",
       "avatar": "/images/about/about-nb.jpg",
-      "avatarAlt": "David Nguyen - Chuyên viên tư vấn bất động sản",
+      "avatarAlt": "Kỳ Duyên Savills - Chuyên viên tư vấn bất động sản",
       "introduction": "Mình là {name}, chuyên viên tư vấn bất động sản với hơn {years} năm kinh nghiệm, bán hàng toàn quốc chuyên Hà Nội và Hồ Chí Minh, tập trung vào phân khúc căn hộ cao cấp, shophouse và bất động sản trung tâm TP. Hồ Chí Minh.",
-      "introductionName": "David Nguyen",
+      "introductionName": "Kỳ Duyên Savills",
       "introductionYears": "4",
       "strengths": {
         "title": "Thế mạnh",
@@ -241,7 +241,7 @@
       "hotline": "Hotline",
       "zalo": "Zalo"
     },
-    "copyright": "© 2025 David Nguyen. Tất cả quyền được bảo lưu."
+    "copyright": "© 2025 Kỳ Duyên Savills. Tất cả quyền được bảo lưu."
   }
 }
 

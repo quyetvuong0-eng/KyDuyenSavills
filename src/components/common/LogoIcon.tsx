@@ -10,7 +10,7 @@ interface LogoIconProps {
 /**
  * LogoIcon Component
  * 
- * Renders the David Nguyen logo as an inline SVG component.
+ * Renders the Kỳ Duyên Savills logo as an inline SVG component.
  * Supports both regular and transparent background versions.
  * 
  * @param className - Additional CSS classes
@@ -30,7 +30,7 @@ const LogoIcon: React.FC<LogoIconProps> = ({
   return (
     <img
       src={logoPath}
-            alt="David Nguyen"
+      alt="Kỳ Duyên Savills"
       className={className}
       width={width}
       height={height}

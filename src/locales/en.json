@@ -15,8 +15,8 @@
       "zaloPhone": "0936818105"
     },
     "logo": {
-      "line1": "DAVID",
-      "line2": "NGUYEN"
+      "line1": "KỲ DUYÊN",
+      "line2": "SAVILLS"
     },
     "nav": {
       "home": "Home",
@@ -27,11 +27,11 @@
   },
   "pages": {
     "home": {
-      "title": "David Nguyen",
+      "title": "Kỳ Duyên Savills",
       "paragraph1": "Specializing in real estate consulting and brokerage nationwide, focusing on two key markets: Hanoi and Ho Chi Minh City.",
-      "paragraph2": "Since 2021, David Nguyen has accompanied hundreds of clients in buying, selling, leasing and investing in premium segments: luxury apartments, shophouses, duplexes, penthouses…",
-      "paragraph3": "Currently, David is working at Savills Hanoi – a platform that helps him access international standard processes, transparent data systems and projects from reputable developers such as Masterise Homes, Vinhomes, Novaland, Keppel Land…",
-      "paragraph4": "In any transaction, David always places trust, expertise and customer satisfaction as the number one priority",
+      "paragraph2": "Since 2021, Kỳ Duyên Savills has accompanied hundreds of clients in buying, selling, leasing and investing in premium segments: luxury apartments, shophouses, duplexes, penthouses…",
+      "paragraph3": "Currently, Kỳ Duyên Savills is working at Savills Hanoi – a platform that helps her access international standard processes, transparent data systems and projects from reputable developers such as Masterise Homes, Vinhomes, Novaland, Keppel Land…",
+      "paragraph4": "In any transaction, Kỳ Duyên Savills always places trust, expertise and customer satisfaction as the number one priority",
       "partners": {
         "title": "Products from Leading Developers",
         "developers": [
@@ -70,7 +70,7 @@
         ]
       },
       "services": {
-        "title": "Services provided by David Nguyen",
+        "title": "Services provided by Kỳ Duyên Savills",
         "subtitle": "Accompanying customers throughout",
         "items": [
           {
@@ -115,7 +115,7 @@
           "image": ""
         },
         {
-          "title": "David Nguyen",
+          "title": "Kỳ Duyên Savills",
           "subtitle": "",
           "buttonText": "EXPLORE",
           "image": ""
@@ -123,11 +123,11 @@
       ]
     },
     "about": {
-      "title": "About David Nguyen",
+      "title": "About Kỳ Duyên Savills",
       "avatar": "/images/about/about-nb.jpg",
-      "avatarAlt": "David Nguyen - Real Estate Consultant",
+      "avatarAlt": "Kỳ Duyên Savills - Real Estate Consultant",
       "introduction": "I am {name}, a real estate consultant with over {years} years of experience, selling nationwide specializing in Hanoi and Ho Chi Minh City, focusing on premium apartments, shophouses and central Ho Chi Minh City properties.",
-      "introductionName": "David Nguyen",
+      "introductionName": "Kỳ Duyên Savills",
       "introductionYears": "4",
       "strengths": {
         "title": "Strengths",
@@ -241,7 +241,7 @@
       "hotline": "Hotline",
       "zalo": "Zalo"
     },
-    "copyright": "© 2025 David Nguyen. All rights reserved."
+    "copyright": "© 2025 Kỳ Duyên Savills. All rights reserved."
   }
 }
 

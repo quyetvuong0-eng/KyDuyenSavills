@@ -9,7 +9,7 @@ interface LogoTransparentProps {
 /**
  * LogoTransparent Component
  * 
- * Renders the David Nguyen logo with transparent background.
+ * Renders the Kỳ Duyên Savills logo with transparent background.
  * This is a convenience component that uses LogoIcon with transparent=true.
  * 
  * @param className - Additional CSS classes
@@ -24,7 +24,7 @@ const LogoTransparent: React.FC<LogoTransparentProps> = ({
   return (
     <img
       src="/images/logos/image-Photoroom.png"
-            alt="David Nguyen"
+      alt="Kỳ Duyên Savills"
       className={className}
       width={width}
       height={height}

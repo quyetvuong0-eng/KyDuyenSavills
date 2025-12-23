@@ -15,23 +15,23 @@
       "zaloPhone": "0936818105"
     },
     "logo": {
-      "line1": "DAVID",
-      "line2": "NGUYEN"
+      "line1": "KỲ DUYÊN",
+      "line2": "SAVILLS"
     },
     "nav": {
       "home": "首页",
-      "about": "关于David Nguyen",
+      "about": "关于Kỳ Duyên Savills",
       "contactApartment": "联系找公寓",
       "collaborator": "联系做合伙人"
     }
   },
   "pages": {
     "home": {
-      "title": "David Nguyen",
+      "title": "Kỳ Duyên Savills",
       "paragraph1": "专业从事全国房地产咨询和中介服务，重点关注两个核心市场：河内和胡志明市。",
-      "paragraph2": "自 2021 年以来，David Nguyen 已陪伴数百名客户进行买卖、租赁和投资，专注于高端细分市场：豪华公寓、商铺、复式住宅、顶层公寓等。",
-      "paragraph3": "目前，David 在 Savills 河内工作——这个平台帮助他接触国际标准流程、透明的数据系统以及来自信誉良好的开发商（如 Masterise Homes、Vinhomes、Novaland、Keppel Land 等）的项目。",
-      "paragraph4": "无论在任何交易中，David 始终将诚信、专业知识和客户满意度作为第一要务",
+      "paragraph2": "自 2021 年以来，Kỳ Duyên Savills 已陪伴数百名客户进行买卖、租赁和投资，专注于高端细分市场：豪华公寓、商铺、复式住宅、顶层公寓等。",
+      "paragraph3": "目前，Kỳ Duyên Savills 在 Savills 河内工作——这个平台帮助她接触国际标准流程、透明的数据系统以及来自信誉良好的开发商（如 Masterise Homes、Vinhomes、Novaland、Keppel Land 等）的项目。",
+      "paragraph4": "无论在任何交易中，Kỳ Duyên Savills 始终将诚信、专业知识和客户满意度作为第一要务",
       "partners": {
         "title": "来自领先开发商的产品",
         "developers": [
@@ -70,7 +70,7 @@
         ]
       },
       "services": {
-        "title": "David Nguyen 提供的服务",
+        "title": "Kỳ Duyên Savills 提供的服务",
         "subtitle": "全程陪伴客户",
         "items": [
           {
@@ -115,7 +115,7 @@
           "image": ""
         },
         {
-          "title": "David Nguyen",
+          "title": "Kỳ Duyên Savills",
           "subtitle": "",
           "buttonText": "探索",
           "image": ""
@@ -123,11 +123,11 @@
       ]
     },
     "about": {
-      "title": "关于 David Nguyen",
+      "title": "关于 Kỳ Duyên Savills",
       "avatar": "/images/about/about-nb.jpg",
-      "avatarAlt": "David Nguyen - 房地产顾问",
+      "avatarAlt": "Kỳ Duyên Savills - 房地产顾问",
       "introduction": "我是 {name}，拥有 {years} 年以上房地产顾问经验，全国销售专营河内和胡志明市，专注于高端公寓、商铺以及胡志明市中心优质物业。",
-      "introductionName": "David Nguyen",
+      "introductionName": "Kỳ Duyên Savills",
       "introductionYears": "4",
       "strengths": {
         "title": "优势",
@@ -221,7 +221,7 @@
     "quickLinks": {
       "title": "快速链接",
       "home": "首页",
-      "about": "关于David Nguyen",
+      "about": "关于Kỳ Duyên Savills",
       "contactApartment": "联系找公寓",
       "collaborator": "联系做合伙人"
     },
@@ -241,7 +241,7 @@
       "hotline": "热线",
       "zalo": "Zalo"
     },
-    "copyright": "© 2025 David Nguyen. 保留所有权利。"
+    "copyright": "© 2025 Kỳ Duyên Savills. 保留所有权利。"
   }
 }
 

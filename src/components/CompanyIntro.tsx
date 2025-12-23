@@ -10,13 +10,12 @@ const CompanyIntro: React.FC = () => {
   return (
     <div className="bg-white">
       {/* Company Introduction Section */}
-      <section 
+      <section
         ref={introRef}
-        className={`px-6 lg:px-16 py-12 my-4 rounded-lg transition-all duration-[1200ms] ease-out ${
-          introVisible 
-            ? 'opacity-100 translate-y-0' 
+        className={`px-6 lg:px-16 py-12 my-4 rounded-lg transition-all duration-[1200ms] ease-out ${introVisible
+            ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-10'
-        }`}
+          }`}
       >
         {/* Title - Full width */}
         <div className="mb-6 lg:mb-8">
@@ -32,7 +31,7 @@ const CompanyIntro: React.FC = () => {
             <div className="rounded-2xl overflow-hidden shadow-xl border-4 border-[#d4af37]/20 transition-transform duration-300 hover:scale-105">
               <img
                 src="/images/about/about-nb-2.jpg"
-                alt="David Nguyen - Chuyên viên tư vấn bất động sản"
+                alt="Kỳ Duyên Savills - Chuyên viên tư vấn bất động sản"
                 className="w-full h-auto object-cover transition-transform duration-500 hover:scale-110"
                 loading="lazy"
                 onError={(e) => {
@@ -62,13 +61,12 @@ const CompanyIntro: React.FC = () => {
       </section>
 
       {/* Partners Section */}
-      <section 
+      <section
         ref={partnersRef}
-        className={`relative overflow-hidden px-6 lg:px-16 py-12 rounded-lg transition-all duration-[1200ms] ease-out ${
-          partnersVisible 
-            ? 'opacity-100 translate-y-0' 
+        className={`relative overflow-hidden px-6 lg:px-16 py-12 rounded-lg transition-all duration-[1200ms] ease-out ${partnersVisible
+            ? 'opacity-100 translate-y-0'
             : 'opacity-0 translate-y-10'
-        }`}
+          }`}
         style={{
           backgroundImage: 'linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.35) 100%), url("/images/about/about-nb-3.jpg")',
           backgroundSize: 'cover',
@@ -78,41 +76,16 @@ const CompanyIntro: React.FC = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/20" aria-hidden="true" />
         <div className="relative">
-        <h2 className="text-2xl lg:text-3xl font-bold text-white mb-8 text-center lg:text-left drop-shadow-lg">
-          {t.pages.home.partners.title}
-        </h2>
-        <div className="space-y-6">
-          {/* Top row - 6 logos */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-6">
-            {t.pages.home.partners.developers.slice(0, 6).map((developer, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg p-4 lg:p-6 flex items-center justify-center hover:shadow-xl hover:scale-105 transition-all duration-300 min-h-[120px] backdrop-blur-sm"
-              >
-                <div className="text-center w-full h-full flex items-center justify-center">
-                  {developer.logo ? (
-                    <img
-                      src={developer.logo}
-                      alt={developer.name}
-                      className="max-w-full max-h-16 lg:max-h-20 w-auto h-auto object-contain transition-transform duration-300 hover:scale-110"
-                      loading="lazy"
-                    />
-                  ) : (
-                    <div className="text-[#d4af37] font-semibold text-sm lg:text-base drop-shadow">
-                      {developer.name}
-                    </div>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-          {/* Bottom row - 2 centered logos */}
-          {t.pages.home.partners.developers.length > 6 && (
-            <div className="flex justify-center gap-4 lg:gap-6">
-              {t.pages.home.partners.developers.slice(6).map((developer: any, index: number) => (
+          <h2 className="text-2xl lg:text-3xl font-bold text-white mb-8 text-center lg:text-left drop-shadow-lg">
+            {t.pages.home.partners.title}
+          </h2>
+          <div className="space-y-6">
+            {/* Top row - 6 logos */}
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 lg:gap-6">
+              {t.pages.home.partners.developers.slice(0, 6).map((developer, index) => (
                 <div
                   key={index}
-                  className="bg-white rounded-lg p-4 lg:p-6 flex items-center justify-center hover:shadow-xl hover:scale-105 transition-all duration-300 min-h-[120px] w-full max-w-[200px] backdrop-blur-sm"
+                  className="bg-white rounded-lg p-4 lg:p-6 flex items-center justify-center hover:shadow-xl hover:scale-105 transition-all duration-300 min-h-[120px] backdrop-blur-sm"
                 >
                   <div className="text-center w-full h-full flex items-center justify-center">
                     {developer.logo ? (
@@ -123,7 +96,7 @@ const CompanyIntro: React.FC = () => {
                         loading="lazy"
                       />
                     ) : (
-                    <div className="text-[#d4af37] font-semibold text-sm lg:text-base drop-shadow">
+                      <div className="text-[#d4af37] font-semibold text-sm lg:text-base drop-shadow">
                         {developer.name}
                       </div>
                     )}
@@ -131,8 +104,33 @@ const CompanyIntro: React.FC = () => {
                 </div>
               ))}
             </div>
-          )}
-        </div>
+            {/* Bottom row - 2 centered logos */}
+            {t.pages.home.partners.developers.length > 6 && (
+              <div className="flex justify-center gap-4 lg:gap-6">
+                {t.pages.home.partners.developers.slice(6).map((developer: any, index: number) => (
+                  <div
+                    key={index}
+                    className="bg-white rounded-lg p-4 lg:p-6 flex items-center justify-center hover:shadow-xl hover:scale-105 transition-all duration-300 min-h-[120px] w-full max-w-[200px] backdrop-blur-sm"
+                  >
+                    <div className="text-center w-full h-full flex items-center justify-center">
+                      {developer.logo ? (
+                        <img
+                          src={developer.logo}
+                          alt={developer.name}
+                          className="max-w-full max-h-16 lg:max-h-20 w-auto h-auto object-contain transition-transform duration-300 hover:scale-110"
+                          loading="lazy"
+                        />
+                      ) : (
+                        <div className="text-[#d4af37] font-semibold text-sm lg:text-base drop-shadow">
+                          {developer.name}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </section>
     </div>
