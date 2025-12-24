@@ -1,8 +1,8 @@
 {
   "header": {
     "topBar": {
-      "hotline": "热线: 0936 818 105",
-      "email": "邮箱: NDucDung@savills.com.vn",
+      "hotline": "热线: +84 99 696 0309",
+      "email": "邮箱: NDinhKyDuyen@savills.com.vn",
       "address": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
     },
     "social": {
@@ -15,7 +15,7 @@
       "zaloPhone": "0936818105"
     },
     "logo": {
-      "line1": "KỲ DUYÊN",
+      "line1": "KY DUYEN",
       "line2": "SAVILLS"
     },
     "nav": {
@@ -162,8 +162,8 @@
         "phone": "电话:",
         "email": "邮箱:",
         "address": "办公室地址:",
-        "phoneValue": "0936 818 105",
-        "emailValue": "NDucDung@savills.com.vn",
+        "phoneValue": "+84 99 696 0309",
+        "emailValue": "NDinhKyDuyen@savills.com.vn",
         "addressValue": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
       },
       "social": {
@@ -172,9 +172,9 @@
         "facebook": "Facebook",
         "hotline": "热线",
         "zalo": "Zalo",
-        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
-        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
-        "zaloPhone": "0936818105"
+        "linkedinUrl": "https://www.linkedin.com",
+        "facebookUrl": "https://www.facebook.com",
+        "zaloPhone": "+84 99 696 0309"
       },
       "successMessage": "感谢您的联系！我们会尽快回复。"
     },
@@ -199,8 +199,8 @@
         "phone": "电话:",
         "email": "邮箱:",
         "address": "办公室地址:",
-        "phoneValue": "0936 818 105",
-        "emailValue": "NDucDung@savills.com.vn",
+        "phoneValue": "+84 99 696 0309",
+        "emailValue": "NDinhKyDuyen@savills.com.vn",
         "addressValue": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
       },
       "social": {
@@ -209,9 +209,9 @@
         "facebook": "Facebook",
         "hotline": "热线",
         "zalo": "Zalo",
-        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
-        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
-        "zaloPhone": "0936818105"
+        "linkedinUrl": "https://www.linkedin.com",
+        "facebookUrl": "https://www.facebook.com",
+        "zaloPhone": "+84 99 696 0309"
       },
       "successMessage": "感谢您的关注！我们会尽快与您联系。"
     }
@@ -230,8 +230,8 @@
       "phone": "电话:",
       "email": "邮箱:",
       "address": "地址:",
-      "phoneValue": "0936 818 105",
-      "emailValue": "NDucDung@savills.com.vn",
+      "phoneValue": "+84 99 696 0309",
+      "emailValue": "NDinhKyDuyen@savills.com.vn",
       "addressValue": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
     },
     "social": {
