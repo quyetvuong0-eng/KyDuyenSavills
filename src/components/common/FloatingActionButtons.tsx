@@ -7,12 +7,12 @@ const FloatingActionButtons: React.FC = () => {
   const contactData = t.pages.contactApartment?.contact || t.pages.collaborator?.contact;
 
   const handlePhoneClick = () => {
-    const phone = contactData?.phoneValue?.replace(/\s/g, '') || '0936818105';
+    const phone = contactData?.phoneValue?.replace(/\s/g, '');
     window.location.href = `tel:${phone}`;
   };
 
   const handleZaloClick = () => {
-    const zaloPhone = t.pages.contactApartment?.social?.zaloPhone || t.pages.collaborator?.social?.zaloPhone || '0936818105';
+    const zaloPhone = t.pages.contactApartment?.social?.zaloPhone || t.pages.collaborator?.social?.zaloPhone;
     window.open(`https://zalo.me/${zaloPhone}`, '_blank');
   };
 
@@ -30,9 +30,9 @@ const FloatingActionButtons: React.FC = () => {
         aria-label="Zalo"
         title="Chat Zalo"
       >
-        <IconZalo 
-          width={24} 
-          height={24} 
+        <IconZalo
+          width={24}
+          height={24}
           primaryColor="#0068FF"
           secondaryColor="#FFFFFF"
         />
