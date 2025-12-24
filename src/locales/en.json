@@ -1,8 +1,8 @@
 {
   "header": {
     "topBar": {
-      "hotline": "Hotline: 0936 818 105",
-      "email": "Email: NDucDung@savills.com.vn",
+      "hotline": "Hotline: +84 99 696 0309",
+      "email": "Email: NDinhKyDuyen@savills.com.vn",
       "address": "Lotte Center Hanoi, 21st floor, 54 Liễu Giai St, Ba Đình, Hanoi"
     },
     "social": {
@@ -15,7 +15,7 @@
       "zaloPhone": "0936818105"
     },
     "logo": {
-      "line1": "KỲ DUYÊN",
+      "line1": "KY DUYEN",
       "line2": "SAVILLS"
     },
     "nav": {
@@ -162,8 +162,8 @@
         "phone": "Phone:",
         "email": "Email:",
         "address": "Office Address:",
-        "phoneValue": "0936 818 105",
-        "emailValue": "NDucDung@savills.com.vn",
+        "phoneValue": "+84 99 696 0309",
+        "emailValue": "NDinhKyDuyen@savills.com.vn",
         "addressValue": "Lotte Center Hanoi, 21st floor, 54 Liễu Giai St, Ba Đình, Hanoi"
       },
       "social": {
@@ -172,9 +172,9 @@
         "facebook": "Facebook",
         "hotline": "Hotline",
         "zalo": "Zalo",
-        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
-        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
-        "zaloPhone": "0936818105"
+        "linkedinUrl": "https://www.linkedin.com",
+        "facebookUrl": "https://www.facebook.com",
+        "zaloPhone": "+84 99 696 0309"
       },
       "successMessage": "Thank you for contacting us! We will respond as soon as possible."
     },
@@ -199,8 +199,8 @@
         "phone": "Phone:",
         "email": "Email:",
         "address": "Office Address:",
-        "phoneValue": "0936 818 105",
-        "emailValue": "NDucDung@savills.com.vn",
+        "phoneValue": "+84 99 696 0309",
+        "emailValue": "NDinhKyDuyen@savills.com.vn",
         "addressValue": "Lotte Center Hanoi, 21st floor, 54 Liễu Giai St, Ba Đình, Hanoi"
       },
       "social": {
@@ -209,9 +209,9 @@
         "facebook": "Facebook",
         "hotline": "Hotline",
         "zalo": "Zalo",
-        "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
-        "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
-        "zaloPhone": "0936818105"
+        "linkedinUrl": "https://www.linkedin.com",
+        "facebookUrl": "https://www.facebook.com",
+        "zaloPhone": "+84 99 696 0309"
       },
       "successMessage": "Thank you for your interest! We will contact you as soon as possible."
     }
@@ -230,8 +230,8 @@
       "phone": "Phone:",
       "email": "Email:",
       "address": "Address:",
-      "phoneValue": "0936 818 105",
-      "emailValue": "NDucDung@savills.com.vn",
+      "phoneValue": "+84 99 696 0309",
+      "emailValue": "NDinhKyDuyen@savills.com.vn",
       "addressValue": "Lotte Center Hanoi, 21st floor, 54 Liễu Giai St, Ba Đình, Hanoi"
     },
     "social": {
