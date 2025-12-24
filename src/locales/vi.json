@@ -1,7 +1,7 @@
 {
   "header": {
     "topBar": {
-      "hotline": "Hotline: +0996960309",
+      "hotline": "Hotline: 0996960309",
       "email": "Email: NDinhKyDuyen@savills.com.vn",
       "address": "Lotte Center Hà Nội, 21st floor, 54 P. Liễu Giai, Ba Đình, Hà Nội"
     },
@@ -12,7 +12,7 @@
       "zalo": "Zalo",
       "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
       "facebookUrl": "https://www.facebook.com/profile.php?id=61584089954600",
-      "zaloPhone": "+0996960309"
+      "zaloPhone": "0996960309"
     },
     "logo": {
       "line1": "KY DUYEN",
@@ -162,7 +162,7 @@
         "phone": "SĐT:",
         "email": "Email:",
         "address": "Địa chỉ văn phòng:",
-        "phoneValue": "+0996960309",
+        "phoneValue": "0996960309",
         "emailValue": "NDinhKyDuyen@savills.com.vn",
         "addressValue": "Lotte Center Hà Nội, 21st floor, 54 P. Liễu Giai, Ba Đình, Hà Nội"
       },
@@ -174,7 +174,7 @@
         "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com",
         "facebookUrl": "https://www.facebook.com/profile.php?id=61584089954600",
-        "zaloPhone": "+0996960309"
+        "zaloPhone": "0996960309"
       },
       "successMessage": "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi sớm nhất có thể."
     },
@@ -199,7 +199,7 @@
         "phone": "SĐT:",
         "email": "Email:",
         "address": "Địa chỉ văn phòng:",
-        "phoneValue": "+0996960309",
+        "phoneValue": "0996960309",
         "emailValue": "NDinhKyDuyen@savills.com.vn",
         "addressValue": "Lotte Center Hà Nội, 21st floor, 54 P. Liễu Giai, Ba Đình, Hà Nội"
       },
@@ -211,7 +211,7 @@
         "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com",
         "facebookUrl": "https://www.facebook.com/profile.php?id=61584089954600",
-        "zaloPhone": "+0996960309"
+        "zaloPhone": "0996960309"
       },
       "successMessage": "Cảm ơn bạn đã quan tâm! Chúng tôi sẽ liên hệ với bạn sớm nhất có thể."
     }
@@ -230,7 +230,7 @@
       "phone": "SĐT:",
       "email": "Email:",
       "address": "Địa chỉ:",
-      "phoneValue": "+0996960309",
+      "phoneValue": "0996960309",
       "emailValue": "NDinhKyDuyen@savills.com.vn",
       "addressValue": "Lotte Center Hà Nội, 21st floor, 54 P. Liễu Giai, Ba Đình, Hà Nội"
     },

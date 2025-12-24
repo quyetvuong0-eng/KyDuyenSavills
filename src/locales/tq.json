@@ -1,7 +1,7 @@
 {
   "header": {
     "topBar": {
-      "hotline": "热线: +0996960309",
+      "hotline": "热线: 0996960309",
       "email": "邮箱: NDinhKyDuyen@savills.com.vn",
       "address": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
     },
@@ -12,7 +12,7 @@
       "zalo": "Zalo", 
       "linkedinUrl": "https://www.linkedin.com/in/ndinhkyduyen",
       "facebookUrl": "https://www.facebook.com/profile.php?id=61584089954600",
-      "zaloPhone": "+0996960309"
+      "zaloPhone": "0996960309"  
     },
     "logo": {
       "line1": "KY DUYEN",
@@ -162,7 +162,7 @@
         "phone": "电话:",
         "email": "邮箱:",
         "address": "办公室地址:",
-        "phoneValue": "+0996960309",
+        "phoneValue": "0996960309",
         "emailValue": "NDinhKyDuyen@savills.com.vn",
         "addressValue": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
       },
@@ -174,7 +174,7 @@
         "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com",
         "facebookUrl": "https://www.facebook.com/profile.php?id=61584089954600",
-        "zaloPhone": "+0996960309"
+        "zaloPhone": "0996960309"
       },
       "successMessage": "感谢您的联系！我们会尽快回复。"
     },
@@ -199,7 +199,7 @@
         "phone": "电话:",
         "email": "邮箱:",
         "address": "办公室地址:",
-        "phoneValue": "+0996960309",
+        "phoneValue": "0996960309",
         "emailValue": "NDinhKyDuyen@savills.com.vn",
         "addressValue": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
       },
@@ -211,7 +211,7 @@
         "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com",
         "facebookUrl": "https://www.facebook.com/profile.php?id=61584089954600",
-        "zaloPhone": "+0996960309"
+        "zaloPhone": "0996960309"
       },
       "successMessage": "感谢您的关注！我们会尽快与您联系。"
     }
@@ -230,7 +230,7 @@
       "phone": "电话:",
       "email": "邮箱:",
       "address": "地址:",
-        "phoneValue": "+0996960309",
+        "phoneValue": "0996960309",
       "emailValue": "NDinhKyDuyen@savills.com.vn",
       "addressValue": "河内乐天中心，21楼，54 Liễu Giai街，巴亭，河内"
     },
