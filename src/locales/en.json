@@ -11,7 +11,7 @@
       "hotline": "Hotline",
       "zalo": "Zalo",
       "linkedinUrl": "https://www.linkedin.com/in/dungducnguyen",
-      "facebookUrl": "https://www.facebook.com/david.nguyen.574132/",
+      "facebookUrl": "https://www.facebook.com/profile.php?id=61584089954600",
       "zaloPhone": "0936818105"
     },
     "logo": {
@@ -167,14 +167,14 @@
         "addressValue": "Lotte Center Hanoi, 21st floor, 54 Liễu Giai St, Ba Đình, Hanoi"
       },
       "social": {
-        "title": "Social Media",
-        "linkedin": "LinkedIn",
-        "facebook": "Facebook",
-        "hotline": "Hotline",
-        "zalo": "Zalo",
-        "linkedinUrl": "https://www.linkedin.com",
-        "facebookUrl": "https://www.facebook.com",
-        "zaloPhone": "+84 99 696 0309"
+      "title": "Social Media",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "hotline": "Hotline",
+      "zalo": "Zalo",
+      "linkedinUrl": "https://www.linkedin.com",
+      "facebookUrl": "https://www.facebook.com/profile.php?id=61584089954600",
+      "zaloPhone": "+84 99 696 0309"
       },
       "successMessage": "Thank you for contacting us! We will respond as soon as possible."
     },
@@ -210,7 +210,7 @@
         "hotline": "Hotline",
         "zalo": "Zalo",
         "linkedinUrl": "https://www.linkedin.com",
-        "facebookUrl": "https://www.facebook.com",
+        "facebookUrl": "https://www.facebook.com/profile.php?id=61584089954600",
         "zaloPhone": "+84 99 696 0309"
       },
       "successMessage": "Thank you for your interest! We will contact you as soon as possible."
